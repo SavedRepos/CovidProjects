@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>ca.jphart.C19CollectDataSh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>bash</string>
+		<string>/Users/paulhart/Documents/Development/CovidProjects/Data/C19CollectData.sh</string>
+	</array>
+	<key>StandardOutPath</key>
+	<string>/Users/paulhart/Documents/Development/CovidProjects/Logs/C19CollectData.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/paulhart/Documents/Development/CovidProjects/Logs/C19CollectData.log</string>
+	<key>StartInterval</key>
+	<integer>3600</integer>
+</dict>
+</plist>
