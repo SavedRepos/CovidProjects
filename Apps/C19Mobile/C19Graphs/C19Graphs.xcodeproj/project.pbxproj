@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,9 @@
 		76E09BF8259968470073FC36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E09BF7259968470073FC36 /* ContentView.swift */; };
 		76E09BFA259968470073FC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E09BF9259968470073FC36 /* Assets.xcassets */; };
 		76E09BFD259968470073FC36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E09BFC259968470073FC36 /* Preview Assets.xcassets */; };
+		76E09C0B25996C2C0073FC36 /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 76E09C0A25996C2C0073FC36 /* Shapes */; };
+		76E09C0E259970D70073FC36 /* C19CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E09C0D259970D70073FC36 /* C19CountryData.swift */; };
+		76E09C112599713A0073FC36 /* WorldPopulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E09C102599713A0073FC36 /* WorldPopulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		76E09BF9259968470073FC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76E09BFC259968470073FC36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76E09BFE259968470073FC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E09C0D259970D70073FC36 /* C19CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C19CountryData.swift; sourceTree = "<group>"; };
+		76E09C102599713A0073FC36 /* WorldPopulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPopulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E09C0B25996C2C0073FC36 /* Shapes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +58,10 @@
 		76E09BF4259968470073FC36 /* C19Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				76E09C07259969160073FC36 /* Common */,
+				76E09C06259969000073FC36 /* Views */,
+				76E09C05259968E60073FC36 /* Models */,
 				76E09BF5259968470073FC36 /* C19GraphsApp.swift */,
-				76E09BF7259968470073FC36 /* ContentView.swift */,
 				76E09BF9259968470073FC36 /* Assets.xcassets */,
 				76E09BFE259968470073FC36 /* Info.plist */,
 				76E09BFB259968470073FC36 /* Preview Content */,
@@ -67,6 +75,30 @@
 				76E09BFC259968470073FC36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76E09C05259968E60073FC36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76E09C0D259970D70073FC36 /* C19CountryData.swift */,
+				76E09C102599713A0073FC36 /* WorldPopulation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76E09C06259969000073FC36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76E09BF7259968470073FC36 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76E09C07259969160073FC36 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +117,9 @@
 			dependencies = (
 			);
 			name = C19Graphs;
+			packageProductDependencies = (
+				76E09C0A25996C2C0073FC36 /* Shapes */,
+			);
 			productName = C19Graphs;
 			productReference = 76E09BF2259968470073FC36 /* C19Graphs.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +147,9 @@
 				Base,
 			);
 			mainGroup = 76E09BE9259968470073FC36;
+			packageReferences = (
+				76E09C0925996C2C0073FC36 /* XCRemoteSwiftPackageReference "swiftui-shapes" */,
+			);
 			productRefGroup = 76E09BF3259968470073FC36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +178,8 @@
 			files = (
 				76E09BF8259968470073FC36 /* ContentView.swift in Sources */,
 				76E09BF6259968470073FC36 /* C19GraphsApp.swift in Sources */,
+				76E09C0E259970D70073FC36 /* C19CountryData.swift in Sources */,
+				76E09C112599713A0073FC36 /* WorldPopulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76E09C0925996C2C0073FC36 /* XCRemoteSwiftPackageReference "swiftui-shapes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swift-extensions/swiftui-shapes.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76E09C0A25996C2C0073FC36 /* Shapes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76E09C0925996C2C0073FC36 /* XCRemoteSwiftPackageReference "swiftui-shapes" */;
+			productName = Shapes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76E09BEA259968470073FC36 /* Project object */;
 }
