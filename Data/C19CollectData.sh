@@ -1,5 +1,6 @@
+
 echo
-echo  $(date) "End C9 Data Collection starting"
+echo -e $(date) "C19 Data Collection starting -----------------------------------------------"
 
 echo -e $(date) 'Python version'
 /usr/local/bin/python3 --version
@@ -13,7 +14,7 @@ git clone https://github.com/CSSEGISandData/COVID-19.git
 
 echo -e $(date) 'Creating csv data'
 /usr/local/bin/python3 /Users/paulhart/Documents/Development/CovidProjects/Apps/C19DataCollection/CovidDataMain.py
-echo -e $(date) 'Creating csv data complete'
+echo -e  $(date) 'Creating csv data complete'
 echo 
 
 echo -e "Add files"
@@ -21,12 +22,12 @@ echo -e "Add files"
 git add --all
 
 echo 
-echo -e  $(date) "Commit files"
+echo -e $(date) "Commit files"
 git commit -m "Daily update $(date)"
 
 echo 
-echo -e  $(date) "Push files to Github"
+echo -e $(date) "Push files to Github"
 git push -u origin master
 
 echo
-echo  $(date) "End C9 Data Collection complete"
+echo -e $(date) "End C19 Data Collection complete -------------------------------------------"

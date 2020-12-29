@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-import CovidDataMain as cd
+import C19CollectDataMain as cd
 
 global global_new_keys
 

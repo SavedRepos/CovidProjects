@@ -7,7 +7,7 @@
 	<string>ca.jphart.C19CollectDataSh</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/bin/zsh</string>
+		<string>/bin/bash</string>
 		<string>/Users/paulhart/Documents/Development/CovidProjects/Data/C19CollectData.sh</string>
 	</array>
 	<key>StandardOutPath</key>

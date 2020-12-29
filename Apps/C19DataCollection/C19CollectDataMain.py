@@ -14,9 +14,9 @@ import logging
 import numpy as np
 import pandas as pd
 
-import CovidDataGlobalTimeSeries as gts
-import CovidDataGlobalRollup as gpr
-import CovidDataUSStates as uss
+import C19CollectDataGlobalTimeSeries as gts
+import C19CollectDataGlobalRollup as gpr
+import C19CollectDataUSStates as uss
 
 # ----------------------------------------------------------------------------
 # Constants

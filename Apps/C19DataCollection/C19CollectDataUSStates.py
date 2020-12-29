@@ -14,7 +14,7 @@ import logging
 import numpy as np
 import pandas as pd
 
-import CovidDataMain as cd
+import C19CollectDataMain as cd
 
 # Prepare US dataframe
 # ----------------------------------------------------------------------------

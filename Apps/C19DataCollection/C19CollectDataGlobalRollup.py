@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-import CovidDataMain as cd
+import C19CollectDataMain as cd
 
 COUNTRY_LOCATION = {
     'Australia'     : '-35.308056,149.124444',
