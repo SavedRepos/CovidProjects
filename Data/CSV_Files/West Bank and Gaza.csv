@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-,West Bank and Gaza,31.9522,35.2332,2020-01-22,0,0,", West Bank and Gaza",-1440.0,-35.0,-201.85714285714286,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-23,0,0,", West Bank and Gaza",0.0,0.0,-202.0,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-24,0,0,", West Bank and Gaza",0.0,0.0,-202.85714285714286,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-25,0,0,", West Bank and Gaza",0.0,0.0,-203.0,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-26,0,0,", West Bank and Gaza",0.0,0.0,-204.57142857142858,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-27,0,0,", West Bank and Gaza",0.0,0.0,-205.57142857142858,-5.0,4817000
-,West Bank and Gaza,31.9522,35.2332,2020-01-28,0,0,", West Bank and Gaza",0.0,0.0,-205.71428571428572,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-22,0,0,", West Bank and Gaza",-1451.0,-35.0,-202.85714285714286,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-23,0,0,", West Bank and Gaza",0.0,0.0,-203.0,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-24,0,0,", West Bank and Gaza",0.0,0.0,-204.57142857142858,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-25,0,0,", West Bank and Gaza",0.0,0.0,-205.57142857142858,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-26,0,0,", West Bank and Gaza",0.0,0.0,-205.71428571428572,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-27,0,0,", West Bank and Gaza",0.0,0.0,-205.85714285714286,-5.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-01-28,0,0,", West Bank and Gaza",0.0,0.0,-207.28571428571428,-5.0,4817000
 ,West Bank and Gaza,31.9522,35.2332,2020-01-29,0,0,", West Bank and Gaza",0.0,0.0,0.0,0.0,4817000
 ,West Bank and Gaza,31.9522,35.2332,2020-01-30,0,0,", West Bank and Gaza",0.0,0.0,0.0,0.0,4817000
 ,West Bank and Gaza,31.9522,35.2332,2020-01-31,0,0,", West Bank and Gaza",0.0,0.0,0.0,0.0,4817000
@@ -339,3 +339,5 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,West Bank and Gaza,31.9522,35.2332,2020-12-24,129080,1243,", West Bank and Gaza",1704.0,17.0,1617.857142857143,23.571428571428573,4817000
 ,West Bank and Gaza,31.9522,35.2332,2020-12-25,130598,1260,", West Bank and Gaza",1518.0,17.0,1569.4285714285713,23.285714285714285,4817000
 ,West Bank and Gaza,31.9522,35.2332,2020-12-26,131904,1281,", West Bank and Gaza",1306.0,21.0,1526.857142857143,23.428571428571427,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-12-27,133093,1309,", West Bank and Gaza",1189.0,28.0,1492.857142857143,24.0,4817000
+,West Bank and Gaza,31.9522,35.2332,2020-12-28,134310,1332,", West Bank and Gaza",1217.0,23.0,1480.7142857142858,23.285714285714285,4817000

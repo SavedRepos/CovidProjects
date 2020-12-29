@@ -1,7 +1,7 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 Curacao,Netherlands,12.1696,-68.99,2020-01-22,0,0,"Curacao, Netherlands",-182.0,-3.0,-25.571428571428573,-0.42857142857142855,164093
-Curacao,Netherlands,12.1696,-68.99,2020-01-23,0,0,"Curacao, Netherlands",0.0,0.0,-25.571428571428573,-0.42857142857142855,164093
-Curacao,Netherlands,12.1696,-68.99,2020-01-24,0,0,"Curacao, Netherlands",0.0,0.0,-25.571428571428573,-0.42857142857142855,164093
+Curacao,Netherlands,12.1696,-68.99,2020-01-23,0,0,"Curacao, Netherlands",0.0,0.0,-26.0,-0.42857142857142855,164093
+Curacao,Netherlands,12.1696,-68.99,2020-01-24,0,0,"Curacao, Netherlands",0.0,0.0,-26.0,-0.42857142857142855,164093
 Curacao,Netherlands,12.1696,-68.99,2020-01-25,0,0,"Curacao, Netherlands",0.0,0.0,-26.0,-0.42857142857142855,164093
 Curacao,Netherlands,12.1696,-68.99,2020-01-26,0,0,"Curacao, Netherlands",0.0,0.0,-26.0,-0.42857142857142855,164093
 Curacao,Netherlands,12.1696,-68.99,2020-01-27,0,0,"Curacao, Netherlands",0.0,0.0,-26.0,-0.42857142857142855,164093
@@ -339,3 +339,5 @@ Curacao,Netherlands,12.1696,-68.99,2020-12-23,4051,12,"Curacao, Netherlands",45.
 Curacao,Netherlands,12.1696,-68.99,2020-12-24,4099,12,"Curacao, Netherlands",48.0,0.0,39.42857142857143,0.14285714285714285,164093
 Curacao,Netherlands,12.1696,-68.99,2020-12-25,4138,13,"Curacao, Netherlands",39.0,1.0,36.714285714285715,0.2857142857142857,164093
 Curacao,Netherlands,12.1696,-68.99,2020-12-26,4140,14,"Curacao, Netherlands",2.0,1.0,31.428571428571427,0.42857142857142855,164093
+Curacao,Netherlands,12.1696,-68.99,2020-12-27,4144,14,"Curacao, Netherlands",4.0,0.0,28.142857142857142,0.42857142857142855,164093
+Curacao,Netherlands,12.1696,-68.99,2020-12-28,4151,14,"Curacao, Netherlands",7.0,0.0,25.285714285714285,0.42857142857142855,164093

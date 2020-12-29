@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-22,0,0,", Bosnia and Herzegovina",-154349.0,-9093.0,-21431.85714285714,-1290.857142857143,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-23,0,0,", Bosnia and Herzegovina",0.0,0.0,-21483.571428571428,-1291.857142857143,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-24,0,0,", Bosnia and Herzegovina",0.0,0.0,-21579.85714285714,-1293.142857142857,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-25,0,0,", Bosnia and Herzegovina",0.0,0.0,-21723.428571428572,-1295.0,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-26,0,0,", Bosnia and Herzegovina",0.0,0.0,-21874.428571428572,-1296.5714285714287,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-27,0,0,", Bosnia and Herzegovina",0.0,0.0,-21941.428571428572,-1297.5714285714287,3280819
-,Bosnia and Herzegovina,43.9159,17.6791,2020-01-28,0,0,", Bosnia and Herzegovina",0.0,0.0,-22049.85714285714,-1299.0,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-22,0,0,", Bosnia and Herzegovina",-155594.0,-9106.0,-21579.85714285714,-1293.142857142857,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-23,0,0,", Bosnia and Herzegovina",0.0,0.0,-21723.428571428572,-1295.0,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-24,0,0,", Bosnia and Herzegovina",0.0,0.0,-21874.428571428572,-1296.5714285714287,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-25,0,0,", Bosnia and Herzegovina",0.0,0.0,-21941.428571428572,-1297.5714285714287,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-26,0,0,", Bosnia and Herzegovina",0.0,0.0,-22049.85714285714,-1299.0,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-27,0,0,", Bosnia and Herzegovina",0.0,0.0,-22120.428571428572,-1299.7142857142858,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-01-28,0,0,", Bosnia and Herzegovina",0.0,0.0,-22227.714285714286,-1300.857142857143,3280819
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-01-29,0,0,", Bosnia and Herzegovina",0.0,0.0,0.0,0.0,3280819
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-01-30,0,0,", Bosnia and Herzegovina",0.0,0.0,0.0,0.0,3280819
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-01-31,0,0,", Bosnia and Herzegovina",0.0,0.0,0.0,0.0,3280819
@@ -339,3 +339,5 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-12-24,108298,3878,", Bosnia and Herzegovina",728.0,40.0,601.5714285714286,47.0,3280819
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-12-25,108891,3901,", Bosnia and Herzegovina",593.0,23.0,572.8571428571429,45.42857142857143,3280819
 ,Bosnia and Herzegovina,43.9159,17.6791,2020-12-26,109330,3923,", Bosnia and Herzegovina",439.0,22.0,543.7142857142857,42.57142857142857,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-12-27,109691,3953,", Bosnia and Herzegovina",361.0,30.0,595.2857142857143,46.857142857142854,3280819
+,Bosnia and Herzegovina,43.9159,17.6791,2020-12-28,109911,3942,", Bosnia and Herzegovina",220.0,-11.0,527.0,33.714285714285715,3280819

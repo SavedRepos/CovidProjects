@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-22,0,0,"Prince Edward Island, Canada",-171892.0,-4327.0,-22838.714285714286,-595.2857142857143,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-23,0,0,"Prince Edward Island, Canada",0.0,0.0,-23150.285714285714,-597.2857142857143,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-24,0,0,"Prince Edward Island, Canada",0.0,0.0,-23474.0,-601.0,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-25,0,0,"Prince Edward Island, Canada",0.0,0.0,-23828.85714285714,-606.8571428571429,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-26,0,0,"Prince Edward Island, Canada",0.0,0.0,-24162.428571428572,-614.7142857142857,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-27,0,0,"Prince Edward Island, Canada",0.0,0.0,-24242.0,-614.8571428571429,154748
-Prince Edward Island,Canada,46.5107,-63.4168,2020-01-28,0,0,"Prince Edward Island, Canada",0.0,0.0,-24556.0,-618.1428571428571,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-22,0,0,"Prince Edward Island, Canada",-176814.0,-4424.0,-23474.0,-601.0,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-23,0,0,"Prince Edward Island, Canada",0.0,0.0,-23828.85714285714,-606.8571428571429,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-24,0,0,"Prince Edward Island, Canada",0.0,0.0,-24162.428571428572,-614.7142857142857,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-25,0,0,"Prince Edward Island, Canada",0.0,0.0,-24242.0,-614.8571428571429,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-26,0,0,"Prince Edward Island, Canada",0.0,0.0,-24556.0,-618.1428571428571,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-27,0,0,"Prince Edward Island, Canada",0.0,0.0,-24807.85714285714,-620.2857142857143,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-01-28,0,0,"Prince Edward Island, Canada",0.0,0.0,-25259.14285714286,-632.0,154748
 Prince Edward Island,Canada,46.5107,-63.4168,2020-01-29,0,0,"Prince Edward Island, Canada",0.0,0.0,0.0,0.0,154748
 Prince Edward Island,Canada,46.5107,-63.4168,2020-01-30,0,0,"Prince Edward Island, Canada",0.0,0.0,0.0,0.0,154748
 Prince Edward Island,Canada,46.5107,-63.4168,2020-01-31,0,0,"Prince Edward Island, Canada",0.0,0.0,0.0,0.0,154748
@@ -339,3 +339,5 @@ Prince Edward Island,Canada,46.5107,-63.4168,2020-12-23,91,0,"Prince Edward Isla
 Prince Edward Island,Canada,46.5107,-63.4168,2020-12-24,94,0,"Prince Edward Island, Canada",3.0,0.0,0.5714285714285714,0.0,154748
 Prince Edward Island,Canada,46.5107,-63.4168,2020-12-25,94,0,"Prince Edward Island, Canada",0.0,0.0,0.5714285714285714,0.0,154748
 Prince Edward Island,Canada,46.5107,-63.4168,2020-12-26,94,0,"Prince Edward Island, Canada",0.0,0.0,0.5714285714285714,0.0,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-12-27,94,0,"Prince Edward Island, Canada",0.0,0.0,0.5714285714285714,0.0,154748
+Prince Edward Island,Canada,46.5107,-63.4168,2020-12-28,94,0,"Prince Edward Island, Canada",0.0,0.0,0.5714285714285714,0.0,154748

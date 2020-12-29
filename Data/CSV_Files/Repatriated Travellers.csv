@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Repatriated Travellers,Canada,,,2020-01-22,0,0,"Repatriated Travellers, Canada",-185872.0,-7913.0,-25283.571428571428,-1105.142857142857,0
-Repatriated Travellers,Canada,,,2020-01-23,0,0,"Repatriated Travellers, Canada",0.0,0.0,-25584.714285714286,-1109.4285714285713,0
-Repatriated Travellers,Canada,,,2020-01-24,0,0,"Repatriated Travellers, Canada",0.0,0.0,-25896.571428571428,-1113.4285714285713,0
-Repatriated Travellers,Canada,,,2020-01-25,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26217.571428571428,-1123.857142857143,0
+Repatriated Travellers,Canada,,,2020-01-22,0,0,"Repatriated Travellers, Canada",-194930.0,-8060.0,-25896.571428571428,-1113.4285714285713,0
+Repatriated Travellers,Canada,,,2020-01-23,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26217.571428571428,-1123.857142857143,0
+Repatriated Travellers,Canada,,,2020-01-24,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26553.14285714286,-1130.4285714285713,0
+Repatriated Travellers,Canada,,,2020-01-25,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26553.14285714286,-1130.4285714285713,0
 Repatriated Travellers,Canada,,,2020-01-26,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26553.14285714286,-1130.4285714285713,0
-Repatriated Travellers,Canada,,,2020-01-27,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26553.14285714286,-1130.4285714285713,0
-Repatriated Travellers,Canada,,,2020-01-28,0,0,"Repatriated Travellers, Canada",0.0,0.0,-26553.14285714286,-1130.4285714285713,0
+Repatriated Travellers,Canada,,,2020-01-27,0,0,"Repatriated Travellers, Canada",0.0,0.0,-27523.571428571428,-1146.142857142857,0
+Repatriated Travellers,Canada,,,2020-01-28,0,0,"Repatriated Travellers, Canada",0.0,0.0,-27847.14285714286,-1151.4285714285713,0
 Repatriated Travellers,Canada,,,2020-01-29,0,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
 Repatriated Travellers,Canada,,,2020-01-30,0,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
 Repatriated Travellers,Canada,,,2020-01-31,0,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
@@ -339,3 +339,5 @@ Repatriated Travellers,Canada,,,2020-12-23,13,0,"Repatriated Travellers, Canada"
 Repatriated Travellers,Canada,,,2020-12-24,13,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
 Repatriated Travellers,Canada,,,2020-12-25,13,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
 Repatriated Travellers,Canada,,,2020-12-26,13,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
+Repatriated Travellers,Canada,,,2020-12-27,13,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0
+Repatriated Travellers,Canada,,,2020-12-28,13,0,"Repatriated Travellers, Canada",0.0,0.0,0.0,0.0,0

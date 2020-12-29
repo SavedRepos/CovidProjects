@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Tasmania,Australia,-42.8821,147.3272,2020-01-22,0,0,"Tasmania, Australia",-569.0,-4.0,-80.85714285714286,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-23,0,0,"Tasmania, Australia",0.0,0.0,-80.85714285714286,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-24,0,0,"Tasmania, Australia",0.0,0.0,-80.85714285714286,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-25,0,0,"Tasmania, Australia",0.0,0.0,-81.14285714285714,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-26,0,0,"Tasmania, Australia",0.0,0.0,-81.14285714285714,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-27,0,0,"Tasmania, Australia",0.0,0.0,-81.28571428571429,-0.5714285714285714,539600
-Tasmania,Australia,-42.8821,147.3272,2020-01-28,0,0,"Tasmania, Australia",0.0,0.0,-81.28571428571429,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-22,0,0,"Tasmania, Australia",-572.0,-4.0,-80.85714285714286,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-23,0,0,"Tasmania, Australia",0.0,0.0,-81.14285714285714,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-24,0,0,"Tasmania, Australia",0.0,0.0,-81.14285714285714,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-25,0,0,"Tasmania, Australia",0.0,0.0,-81.28571428571429,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-26,0,0,"Tasmania, Australia",0.0,0.0,-81.28571428571429,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-27,0,0,"Tasmania, Australia",0.0,0.0,-81.71428571428571,-0.5714285714285714,539600
+Tasmania,Australia,-42.8821,147.3272,2020-01-28,0,0,"Tasmania, Australia",0.0,0.0,-81.71428571428571,-0.5714285714285714,539600
 Tasmania,Australia,-42.8821,147.3272,2020-01-29,0,0,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
 Tasmania,Australia,-42.8821,147.3272,2020-01-30,0,0,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
 Tasmania,Australia,-42.8821,147.3272,2020-01-31,0,0,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
@@ -339,3 +339,5 @@ Tasmania,Australia,-42.8821,147.3272,2020-12-23,234,13,"Tasmania, Australia",0.0
 Tasmania,Australia,-42.8821,147.3272,2020-12-24,234,13,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
 Tasmania,Australia,-42.8821,147.3272,2020-12-25,234,13,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
 Tasmania,Australia,-42.8821,147.3272,2020-12-26,234,13,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
+Tasmania,Australia,-42.8821,147.3272,2020-12-27,234,13,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600
+Tasmania,Australia,-42.8821,147.3272,2020-12-28,234,13,"Tasmania, Australia",0.0,0.0,0.0,0.0,539600

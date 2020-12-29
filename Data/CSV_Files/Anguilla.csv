@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-22,0,0,"Anguilla, United Kingdom",-2256005.0,-70405.0,-291449.5714285714,-9628.714285714286,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-23,0,0,"Anguilla, United Kingdom",0.0,0.0,-296215.85714285716,-9659.42857142857,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-24,0,0,"Anguilla, United Kingdom",0.0,0.0,-301473.4285714286,-9758.142857142857,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-25,0,0,"Anguilla, United Kingdom",0.0,0.0,-307078.71428571426,-9864.42857142857,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-26,0,0,"Anguilla, United Kingdom",0.0,0.0,-312655.28571428574,-9946.42857142857,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-27,0,0,"Anguilla, United Kingdom",0.0,0.0,-317330.28571428574,-10027.857142857143,15003
-Anguilla,United Kingdom,18.2206,-63.0686,2020-01-28,0,0,"Anguilla, United Kingdom",0.0,0.0,-322286.4285714286,-10057.857142857143,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-22,0,0,"Anguilla, United Kingdom",-2329730.0,-71109.0,-301473.4285714286,-9758.142857142857,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-23,0,0,"Anguilla, United Kingdom",0.0,0.0,-307078.71428571426,-9864.42857142857,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-24,0,0,"Anguilla, United Kingdom",0.0,0.0,-312655.28571428574,-9946.42857142857,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-25,0,0,"Anguilla, United Kingdom",0.0,0.0,-317330.28571428574,-10027.857142857143,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-26,0,0,"Anguilla, United Kingdom",0.0,0.0,-322286.4285714286,-10057.857142857143,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-27,0,0,"Anguilla, United Kingdom",0.0,0.0,-326906.4285714286,-10107.42857142857,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-01-28,0,0,"Anguilla, United Kingdom",0.0,0.0,-332818.5714285714,-10158.42857142857,15003
 Anguilla,United Kingdom,18.2206,-63.0686,2020-01-29,0,0,"Anguilla, United Kingdom",0.0,0.0,0.0,0.0,15003
 Anguilla,United Kingdom,18.2206,-63.0686,2020-01-30,0,0,"Anguilla, United Kingdom",0.0,0.0,0.0,0.0,15003
 Anguilla,United Kingdom,18.2206,-63.0686,2020-01-31,0,0,"Anguilla, United Kingdom",0.0,0.0,0.0,0.0,15003
@@ -339,3 +339,5 @@ Anguilla,United Kingdom,18.2206,-63.0686,2020-12-23,11,0,"Anguilla, United Kingd
 Anguilla,United Kingdom,18.2206,-63.0686,2020-12-24,11,0,"Anguilla, United Kingdom",0.0,0.0,0.14285714285714285,0.0,15003
 Anguilla,United Kingdom,18.2206,-63.0686,2020-12-25,11,0,"Anguilla, United Kingdom",0.0,0.0,0.14285714285714285,0.0,15003
 Anguilla,United Kingdom,18.2206,-63.0686,2020-12-26,12,0,"Anguilla, United Kingdom",1.0,0.0,0.2857142857142857,0.0,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-12-27,12,0,"Anguilla, United Kingdom",0.0,0.0,0.2857142857142857,0.0,15003
+Anguilla,United Kingdom,18.2206,-63.0686,2020-12-28,13,0,"Anguilla, United Kingdom",1.0,0.0,0.42857142857142855,0.0,15003

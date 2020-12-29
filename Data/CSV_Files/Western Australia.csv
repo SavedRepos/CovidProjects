@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Western Australia,Australia,-31.9505,115.8605,2020-01-22,0,0,"Western Australia, Australia",-20362.0,-820.0,-2908.1428571428573,-117.14285714285714,2656200
-Western Australia,Australia,-31.9505,115.8605,2020-01-23,0,0,"Western Australia, Australia",0.0,0.0,-2908.5714285714284,-117.14285714285714,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-01-22,0,0,"Western Australia, Australia",-20364.0,-820.0,-2908.714285714286,-117.14285714285714,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-01-23,0,0,"Western Australia, Australia",0.0,0.0,-2908.714285714286,-117.14285714285714,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-01-24,0,0,"Western Australia, Australia",0.0,0.0,-2908.714285714286,-117.14285714285714,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-01-25,0,0,"Western Australia, Australia",0.0,0.0,-2908.714285714286,-117.14285714285714,2656200
-Western Australia,Australia,-31.9505,115.8605,2020-01-26,0,0,"Western Australia, Australia",0.0,0.0,-2908.714285714286,-117.14285714285714,2656200
-Western Australia,Australia,-31.9505,115.8605,2020-01-27,0,0,"Western Australia, Australia",0.0,0.0,-2908.714285714286,-117.14285714285714,2656200
-Western Australia,Australia,-31.9505,115.8605,2020-01-28,0,0,"Western Australia, Australia",0.0,0.0,-2908.8571428571427,-117.14285714285714,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-01-26,0,0,"Western Australia, Australia",0.0,0.0,-2908.8571428571427,-117.14285714285714,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-01-27,0,0,"Western Australia, Australia",0.0,0.0,-2909.1428571428573,-117.14285714285714,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-01-28,0,0,"Western Australia, Australia",0.0,0.0,-2909.1428571428573,-117.14285714285714,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-01-29,0,0,"Western Australia, Australia",0.0,0.0,0.0,0.0,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-01-30,0,0,"Western Australia, Australia",0.0,0.0,0.0,0.0,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-01-31,0,0,"Western Australia, Australia",0.0,0.0,0.0,0.0,2656200
@@ -339,3 +339,5 @@ Western Australia,Australia,-31.9505,115.8605,2020-12-23,847,9,"Western Australi
 Western Australia,Australia,-31.9505,115.8605,2020-12-24,848,9,"Western Australia, Australia",1.0,0.0,0.5714285714285714,0.0,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-12-25,854,9,"Western Australia, Australia",6.0,0.0,1.2857142857142858,0.0,2656200
 Western Australia,Australia,-31.9505,115.8605,2020-12-26,853,9,"Western Australia, Australia",-1.0,0.0,1.1428571428571428,0.0,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-12-27,858,9,"Western Australia, Australia",5.0,0.0,1.7142857142857142,0.0,2656200
+Western Australia,Australia,-31.9505,115.8605,2020-12-28,858,9,"Western Australia, Australia",0.0,0.0,1.7142857142857142,0.0,2656200

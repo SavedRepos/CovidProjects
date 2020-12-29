@@ -1,7 +1,7 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 St Martin,France,18.0708,-63.0501,2020-01-22,0,0,"St Martin, France",-15.0,0.0,-2.0,0.0,38666
-St Martin,France,18.0708,-63.0501,2020-01-23,0,0,"St Martin, France",0.0,0.0,-2.0,0.0,38666
-St Martin,France,18.0708,-63.0501,2020-01-24,0,0,"St Martin, France",0.0,0.0,-2.0,0.0,38666
+St Martin,France,18.0708,-63.0501,2020-01-23,0,0,"St Martin, France",0.0,0.0,-2.142857142857143,0.0,38666
+St Martin,France,18.0708,-63.0501,2020-01-24,0,0,"St Martin, France",0.0,0.0,-2.142857142857143,0.0,38666
 St Martin,France,18.0708,-63.0501,2020-01-25,0,0,"St Martin, France",0.0,0.0,-2.142857142857143,0.0,38666
 St Martin,France,18.0708,-63.0501,2020-01-26,0,0,"St Martin, France",0.0,0.0,-2.142857142857143,0.0,38666
 St Martin,France,18.0708,-63.0501,2020-01-27,0,0,"St Martin, France",0.0,0.0,-2.142857142857143,0.0,38666
@@ -339,3 +339,5 @@ St Martin,France,18.0708,-63.0501,2020-12-23,961,12,"St Martin, France",43.0,0.0
 St Martin,France,18.0708,-63.0501,2020-12-24,961,12,"St Martin, France",0.0,0.0,22.857142857142858,0.0,38666
 St Martin,France,18.0708,-63.0501,2020-12-25,961,12,"St Martin, France",0.0,0.0,6.142857142857143,0.0,38666
 St Martin,France,18.0708,-63.0501,2020-12-26,961,12,"St Martin, France",0.0,0.0,6.142857142857143,0.0,38666
+St Martin,France,18.0708,-63.0501,2020-12-27,961,12,"St Martin, France",0.0,0.0,6.142857142857143,0.0,38666
+St Martin,France,18.0708,-63.0501,2020-12-28,961,12,"St Martin, France",0.0,0.0,6.142857142857143,0.0,38666
