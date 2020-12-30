@@ -22,14 +22,14 @@ import C19CollectDataUSStates as uss
 # Constants
 # ----------------------------------------------------------------------------
 
-CSV_DIRECTORY    = '/Users/paulhart/Documents/Development/CovidProjects/Data/CSV_Files'
+CSV_DIRECTORY    = '/Users/paulhart/CovidProjects/Data/CSV_Files'
 
-CONFIRMED_GLOBAL = '/Users/paulhart/Documents/Development/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
-CONFIRMED_US     = '/Users/paulhart/Documents/Development/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv'
-DEATHS_GLOBAL    = '/Users/paulhart/Documents/Development/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
-DEATHS_US        = '/Users/paulhart/Documents/Development/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv'
+CONFIRMED_GLOBAL = '/Users/paulhart/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
+CONFIRMED_US     = '/Users/paulhart/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv'
+DEATHS_GLOBAL    = '/Users/paulhart/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
+DEATHS_US        = '/Users/paulhart/CovidProjects/Data/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv'
 
-WORLD_POP        = '/Users/paulhart/Documents/Development/CovidProjects/Data/WorldPop.csv'
+WORLD_POP        = '/Users/paulhart/CovidProjects/Data/WorldPop.csv'
 
 # ----------------------------------------------------------------------------
 # Global Variables
