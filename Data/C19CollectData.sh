@@ -27,7 +27,7 @@ git commit -m "Daily update $(date)"
 
 echo 
 echo -e $(date) "Push files to Github"
-git push -u origin master
+git push -u origin main
 
 echo
 echo -e $(date) "End C19 Data Collection complete -------------------------------------------"
