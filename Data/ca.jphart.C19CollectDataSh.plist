@@ -15,6 +15,6 @@
 	<key>StandardErrorPath</key>
 	<string>/Users/paulhart/Development/CovidProjects/Logs/C19CollectData.log</string>
 	<key>StartInterval</key>
-	<integer>3600</integer>
+	<integer>10800</integer>
 </dict>
 </plist>
