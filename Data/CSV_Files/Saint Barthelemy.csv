@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Saint Barthelemy,France,17.9,-62.8333,2020-01-22,0,0,"Saint Barthelemy, France",-8909.0,-42.0,-1257.2857142857142,-6.0,9877
-Saint Barthelemy,France,17.9,-62.8333,2020-01-23,0,0,"Saint Barthelemy, France",0.0,0.0,-1257.2857142857142,-6.0,9877
+Saint Barthelemy,France,17.9,-62.8333,2020-01-22,0,0,"Saint Barthelemy, France",-8936.0,-42.0,-1257.2857142857142,-6.0,9877
+Saint Barthelemy,France,17.9,-62.8333,2020-01-23,0,0,"Saint Barthelemy, France",0.0,0.0,-1263.7142857142858,-6.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-24,0,0,"Saint Barthelemy, France",0.0,0.0,-1263.7142857142858,-6.0,9877
-Saint Barthelemy,France,17.9,-62.8333,2020-01-25,0,0,"Saint Barthelemy, France",0.0,0.0,-1263.7142857142858,-6.0,9877
+Saint Barthelemy,France,17.9,-62.8333,2020-01-25,0,0,"Saint Barthelemy, France",0.0,0.0,-1272.7142857142858,-6.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-26,0,0,"Saint Barthelemy, France",0.0,0.0,-1272.7142857142858,-6.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-27,0,0,"Saint Barthelemy, France",0.0,0.0,-1272.7142857142858,-6.0,9877
-Saint Barthelemy,France,17.9,-62.8333,2020-01-28,0,0,"Saint Barthelemy, France",0.0,0.0,-1272.7142857142858,-6.0,9877
+Saint Barthelemy,France,17.9,-62.8333,2020-01-28,0,0,"Saint Barthelemy, France",0.0,0.0,-1276.5714285714287,-6.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-29,0,0,"Saint Barthelemy, France",0.0,0.0,0.0,0.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-30,0,0,"Saint Barthelemy, France",0.0,0.0,0.0,0.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-01-31,0,0,"Saint Barthelemy, France",0.0,0.0,0.0,0.0,9877
@@ -341,3 +341,4 @@ Saint Barthelemy,France,17.9,-62.8333,2020-12-25,184,1,"Saint Barthelemy, France
 Saint Barthelemy,France,17.9,-62.8333,2020-12-26,184,1,"Saint Barthelemy, France",0.0,0.0,1.2857142857142858,0.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-12-27,184,1,"Saint Barthelemy, France",0.0,0.0,1.2857142857142858,0.0,9877
 Saint Barthelemy,France,17.9,-62.8333,2020-12-28,184,1,"Saint Barthelemy, France",0.0,0.0,1.2857142857142858,0.0,9877
+Saint Barthelemy,France,17.9,-62.8333,2020-12-29,184,1,"Saint Barthelemy, France",0.0,0.0,1.2857142857142858,0.0,9877

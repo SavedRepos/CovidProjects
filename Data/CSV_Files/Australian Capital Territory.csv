@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-22,0,0,"Australian Capital Territory, Australia",-157948.0,-2775.0,-22086.0,-381.85714285714283,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-23,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22205.714285714286,-384.42857142857144,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-24,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22306.0,-387.7142857142857,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-25,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22394.714285714286,-390.42857142857144,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-26,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22478.428571428572,-393.14285714285717,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-27,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22547.714285714286,-395.42857142857144,429800
-Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-28,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22564.0,-396.42857142857144,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-22,0,0,"Australian Capital Territory, Australia",-158296.0,-2797.0,-22205.714285714286,-384.42857142857144,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-23,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22306.0,-387.7142857142857,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-24,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22394.714285714286,-390.42857142857144,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-25,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22478.428571428572,-393.14285714285717,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-26,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22547.714285714286,-395.42857142857144,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-27,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22564.0,-396.42857142857144,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-28,0,0,"Australian Capital Territory, Australia",0.0,0.0,-22613.714285714286,-399.57142857142856,429800
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-29,0,0,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-30,0,0,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-01-31,0,0,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800
@@ -341,3 +341,4 @@ Australian Capital Territory,Australia,-35.4735,149.0124,2020-12-25,118,3,"Austr
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-12-26,118,3,"Australian Capital Territory, Australia",0.0,0.0,0.14285714285714285,0.0,429800
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-12-27,118,3,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800
 Australian Capital Territory,Australia,-35.4735,149.0124,2020-12-28,118,3,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800
+Australian Capital Territory,Australia,-35.4735,149.0124,2020-12-29,118,3,"Australian Capital Territory, Australia",0.0,0.0,0.0,0.0,429800

@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-French Guiana,France,3.9339,-53.1258,2020-01-22,0,0,"French Guiana, France",-2559575.0,-62745.0,-355555.5714285714,-8762.714285714286,298682
-French Guiana,France,3.9339,-53.1258,2020-01-23,0,0,"French Guiana, France",0.0,0.0,-357670.4285714286,-8802.0,298682
-French Guiana,France,3.9339,-53.1258,2020-01-24,0,0,"French Guiana, France",0.0,0.0,-360747.71428571426,-8843.42857142857,298682
-French Guiana,France,3.9339,-53.1258,2020-01-25,0,0,"French Guiana, France",0.0,0.0,-363622.5714285714,-8866.142857142857,298682
-French Guiana,France,3.9339,-53.1258,2020-01-26,0,0,"French Guiana, France",0.0,0.0,-364055.4285714286,-8887.0,298682
-French Guiana,France,3.9339,-53.1258,2020-01-27,0,0,"French Guiana, France",0.0,0.0,-365231.5714285714,-8911.714285714286,298682
-French Guiana,France,3.9339,-53.1258,2020-01-28,0,0,"French Guiana, France",0.0,0.0,-365653.5714285714,-8963.57142857143,298682
+French Guiana,France,3.9339,-53.1258,2020-01-22,0,0,"French Guiana, France",-2570767.0,-63713.0,-357670.4285714286,-8802.0,298682
+French Guiana,France,3.9339,-53.1258,2020-01-23,0,0,"French Guiana, France",0.0,0.0,-360747.71428571426,-8843.42857142857,298682
+French Guiana,France,3.9339,-53.1258,2020-01-24,0,0,"French Guiana, France",0.0,0.0,-363622.5714285714,-8866.142857142857,298682
+French Guiana,France,3.9339,-53.1258,2020-01-25,0,0,"French Guiana, France",0.0,0.0,-364055.4285714286,-8887.0,298682
+French Guiana,France,3.9339,-53.1258,2020-01-26,0,0,"French Guiana, France",0.0,0.0,-365231.5714285714,-8911.714285714286,298682
+French Guiana,France,3.9339,-53.1258,2020-01-27,0,0,"French Guiana, France",0.0,0.0,-365653.5714285714,-8963.57142857143,298682
+French Guiana,France,3.9339,-53.1258,2020-01-28,0,0,"French Guiana, France",0.0,0.0,-367252.4285714286,-9101.857142857143,298682
 French Guiana,France,3.9339,-53.1258,2020-01-29,0,0,"French Guiana, France",0.0,0.0,0.0,0.0,298682
 French Guiana,France,3.9339,-53.1258,2020-01-30,0,0,"French Guiana, France",0.0,0.0,0.0,0.0,298682
 French Guiana,France,3.9339,-53.1258,2020-01-31,0,0,"French Guiana, France",0.0,0.0,0.0,0.0,298682
@@ -341,3 +341,4 @@ French Guiana,France,3.9339,-53.1258,2020-12-25,12685,71,"French Guiana, France"
 French Guiana,France,3.9339,-53.1258,2020-12-26,12685,71,"French Guiana, France",0.0,0.0,57.714285714285715,0.0,298682
 French Guiana,France,3.9339,-53.1258,2020-12-27,12773,71,"French Guiana, France",88.0,0.0,57.714285714285715,0.0,298682
 French Guiana,France,3.9339,-53.1258,2020-12-28,12779,71,"French Guiana, France",6.0,0.0,58.57142857142857,0.0,298682
+French Guiana,France,3.9339,-53.1258,2020-12-29,12832,71,"French Guiana, France",53.0,0.0,57.0,0.0,298682

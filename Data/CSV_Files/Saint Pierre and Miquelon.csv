@@ -1,5 +1,5 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-01-22,0,0,"Saint Pierre and Miquelon, France",-184.0,-1.0,-25.0,-0.14285714285714285,5794
+Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-01-22,0,0,"Saint Pierre and Miquelon, France",-184.0,-1.0,-26.285714285714285,-0.14285714285714285,5794
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-01-23,0,0,"Saint Pierre and Miquelon, France",0.0,0.0,-26.285714285714285,-0.14285714285714285,5794
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-01-24,0,0,"Saint Pierre and Miquelon, France",0.0,0.0,-26.285714285714285,-0.14285714285714285,5794
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-01-25,0,0,"Saint Pierre and Miquelon, France",0.0,0.0,-26.285714285714285,-0.14285714285714285,5794
@@ -341,3 +341,4 @@ Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-12-25,15,0,"Saint Pierre 
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-12-26,15,0,"Saint Pierre and Miquelon, France",0.0,0.0,0.14285714285714285,0.0,5794
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-12-27,15,0,"Saint Pierre and Miquelon, France",0.0,0.0,0.14285714285714285,0.0,5794
 Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-12-28,15,0,"Saint Pierre and Miquelon, France",0.0,0.0,0.14285714285714285,0.0,5794
+Saint Pierre and Miquelon,France,46.8852,-56.3159,2020-12-29,15,0,"Saint Pierre and Miquelon, France",0.0,0.0,0.14285714285714285,0.0,5794
