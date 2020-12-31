@@ -8,12 +8,12 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/bin/bash</string>
-		<string>/Users/paulhart/Documents/Development/CovidProjects/Data/C19CollectData.sh</string>
+		<string>/Users/paulhart/Development/CovidProjects/Data/C19CollectData.sh</string>
 	</array>
 	<key>StandardOutPath</key>
-	<string>/Users/paulhart/Documents/Development/CovidProjects/Logs/C19CollectData.log</string>
+	<string>/Users/paulhart/Development/CovidProjects/Logs/C19CollectData.log</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/paulhart/Documents/Development/CovidProjects/Logs/C19CollectData.log</string>
+	<string>/Users/paulhart/Development/CovidProjects/Logs/C19CollectData.log</string>
 	<key>StartInterval</key>
 	<integer>3600</integer>
 </dict>
