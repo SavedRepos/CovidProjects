@@ -1,7 +1,7 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 ,Congo (Kinshasa),-4.0383,21.7587,2020-01-22,0,0,", Congo (Kinshasa)",-6908.0,-107.0,-938.7142857142857,-14.285714285714286,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-01-23,0,0,", Congo (Kinshasa)",0.0,0.0,-938.7142857142857,-14.285714285714286,89561403
-,Congo (Kinshasa),-4.0383,21.7587,2020-01-24,0,0,", Congo (Kinshasa)",0.0,0.0,-938.7142857142857,-14.285714285714286,89561403
+,Congo (Kinshasa),-4.0383,21.7587,2020-01-24,0,0,", Congo (Kinshasa)",0.0,0.0,-986.8571428571429,-15.285714285714286,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-01-25,0,0,", Congo (Kinshasa)",0.0,0.0,-986.8571428571429,-15.285714285714286,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-01-26,0,0,", Congo (Kinshasa)",0.0,0.0,-986.8571428571429,-15.285714285714286,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-01-27,0,0,", Congo (Kinshasa)",0.0,0.0,-986.8571428571429,-15.285714285714286,89561403
@@ -342,3 +342,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Congo (Kinshasa),-4.0383,21.7587,2020-12-27,16839,579,", Congo (Kinshasa)",76.0,6.0,192.0,29.857142857142858,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-12-28,16917,579,", Congo (Kinshasa)",78.0,0.0,178.28571428571428,29.857142857142858,89561403
 ,Congo (Kinshasa),-4.0383,21.7587,2020-12-29,17182,584,", Congo (Kinshasa)",265.0,5.0,196.0,30.571428571428573,89561403
+,Congo (Kinshasa),-4.0383,21.7587,2020-12-30,17376,584,", Congo (Kinshasa)",194.0,0.0,191.0,2.5714285714285716,89561403

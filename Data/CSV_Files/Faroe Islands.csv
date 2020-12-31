@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-22,0,0,"Faroe Islands, Denmark",-158447.0,-1226.0,-20496.0,-156.57142857142858,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-23,0,0,"Faroe Islands, Denmark",0.0,0.0,-20905.85714285714,-159.14285714285714,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-24,0,0,"Faroe Islands, Denmark",0.0,0.0,-21333.285714285714,-162.0,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-25,0,0,"Faroe Islands, Denmark",0.0,0.0,-21595.285714285714,-164.71428571428572,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-26,0,0,"Faroe Islands, Denmark",0.0,0.0,-21906.714285714286,-167.71428571428572,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-27,0,0,"Faroe Islands, Denmark",0.0,0.0,-22260.85714285714,-172.0,48863
-Faroe Islands,Denmark,61.8926,-6.9118,2020-01-28,0,0,"Faroe Islands, Denmark",0.0,0.0,-22635.285714285714,-175.14285714285714,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-22,0,0,"Faroe Islands, Denmark",-161230.0,-1256.0,-20905.85714285714,-159.14285714285714,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-23,0,0,"Faroe Islands, Denmark",0.0,0.0,-21333.285714285714,-162.0,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-24,0,0,"Faroe Islands, Denmark",0.0,0.0,-21595.285714285714,-164.71428571428572,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-25,0,0,"Faroe Islands, Denmark",0.0,0.0,-21906.714285714286,-167.71428571428572,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-26,0,0,"Faroe Islands, Denmark",0.0,0.0,-22260.85714285714,-172.0,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-27,0,0,"Faroe Islands, Denmark",0.0,0.0,-22635.285714285714,-175.14285714285714,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-01-28,0,0,"Faroe Islands, Denmark",0.0,0.0,-23032.85714285714,-179.42857142857142,48863
 Faroe Islands,Denmark,61.8926,-6.9118,2020-01-29,0,0,"Faroe Islands, Denmark",0.0,0.0,0.0,0.0,48863
 Faroe Islands,Denmark,61.8926,-6.9118,2020-01-30,0,0,"Faroe Islands, Denmark",0.0,0.0,0.0,0.0,48863
 Faroe Islands,Denmark,61.8926,-6.9118,2020-01-31,0,0,"Faroe Islands, Denmark",0.0,0.0,0.0,0.0,48863
@@ -342,3 +342,4 @@ Faroe Islands,Denmark,61.8926,-6.9118,2020-12-26,571,0,"Faroe Islands, Denmark",
 Faroe Islands,Denmark,61.8926,-6.9118,2020-12-27,579,0,"Faroe Islands, Denmark",8.0,0.0,4.714285714285714,0.0,48863
 Faroe Islands,Denmark,61.8926,-6.9118,2020-12-28,582,0,"Faroe Islands, Denmark",3.0,0.0,5.0,0.0,48863
 Faroe Islands,Denmark,61.8926,-6.9118,2020-12-29,601,0,"Faroe Islands, Denmark",19.0,0.0,7.285714285714286,0.0,48863
+Faroe Islands,Denmark,61.8926,-6.9118,2020-12-30,605,0,"Faroe Islands, Denmark",4.0,0.0,7.0,0.0,48863

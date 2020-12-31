@@ -2,9 +2,9 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-22,0,0,"Northwest Territories, Canada",-390.0,-4.0,-54.857142857142854,-0.5714285714285714,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-23,0,0,"Northwest Territories, Canada",0.0,0.0,-54.857142857142854,-0.5714285714285714,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-24,0,0,"Northwest Territories, Canada",0.0,0.0,-54.857142857142854,-0.5714285714285714,44598
-Northwest Territories,Canada,64.8255,-124.8457,2020-01-25,0,0,"Northwest Territories, Canada",0.0,0.0,-54.857142857142854,-0.5714285714285714,44598
-Northwest Territories,Canada,64.8255,-124.8457,2020-01-26,0,0,"Northwest Territories, Canada",0.0,0.0,-55.285714285714285,-0.5714285714285714,44598
-Northwest Territories,Canada,64.8255,-124.8457,2020-01-27,0,0,"Northwest Territories, Canada",0.0,0.0,-55.57142857142857,-0.5714285714285714,44598
+Northwest Territories,Canada,64.8255,-124.8457,2020-01-25,0,0,"Northwest Territories, Canada",0.0,0.0,-55.285714285714285,-0.5714285714285714,44598
+Northwest Territories,Canada,64.8255,-124.8457,2020-01-26,0,0,"Northwest Territories, Canada",0.0,0.0,-55.57142857142857,-0.5714285714285714,44598
+Northwest Territories,Canada,64.8255,-124.8457,2020-01-27,0,0,"Northwest Territories, Canada",0.0,0.0,-55.714285714285715,-0.5714285714285714,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-28,0,0,"Northwest Territories, Canada",0.0,0.0,-55.714285714285715,-0.5714285714285714,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-29,0,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-01-30,0,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598
@@ -342,3 +342,4 @@ Northwest Territories,Canada,64.8255,-124.8457,2020-12-26,24,0,"Northwest Territ
 Northwest Territories,Canada,64.8255,-124.8457,2020-12-27,24,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-12-28,24,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598
 Northwest Territories,Canada,64.8255,-124.8457,2020-12-29,24,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598
+Northwest Territories,Canada,64.8255,-124.8457,2020-12-30,24,0,"Northwest Territories, Canada",0.0,0.0,0.0,0.0,44598

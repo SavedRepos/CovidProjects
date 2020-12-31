@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-,Marshall Islands,7.1315,171.1845,2020-01-22,0,0,", Marshall Islands",-12541.0,-215.0,-1713.142857142857,-28.714285714285715,59190
-,Marshall Islands,7.1315,171.1845,2020-01-23,0,0,", Marshall Islands",0.0,0.0,-1723.142857142857,-29.0,59190
-,Marshall Islands,7.1315,171.1845,2020-01-24,0,0,", Marshall Islands",0.0,0.0,-1730.2857142857142,-29.0,59190
-,Marshall Islands,7.1315,171.1845,2020-01-25,0,0,", Marshall Islands",0.0,0.0,-1748.7142857142858,-29.428571428571427,59190
-,Marshall Islands,7.1315,171.1845,2020-01-26,0,0,", Marshall Islands",0.0,0.0,-1760.7142857142858,-30.0,59190
-,Marshall Islands,7.1315,171.1845,2020-01-27,0,0,", Marshall Islands",0.0,0.0,-1775.142857142857,-30.714285714285715,59190
-,Marshall Islands,7.1315,171.1845,2020-01-28,0,0,", Marshall Islands",0.0,0.0,-1791.5714285714287,-30.714285714285715,59190
+,Marshall Islands,7.1315,171.1845,2020-01-22,0,0,", Marshall Islands",-12665.0,-216.0,-1723.142857142857,-29.0,59190
+,Marshall Islands,7.1315,171.1845,2020-01-23,0,0,", Marshall Islands",0.0,0.0,-1730.2857142857142,-29.0,59190
+,Marshall Islands,7.1315,171.1845,2020-01-24,0,0,", Marshall Islands",0.0,0.0,-1748.7142857142858,-29.428571428571427,59190
+,Marshall Islands,7.1315,171.1845,2020-01-25,0,0,", Marshall Islands",0.0,0.0,-1760.7142857142858,-30.0,59190
+,Marshall Islands,7.1315,171.1845,2020-01-26,0,0,", Marshall Islands",0.0,0.0,-1775.142857142857,-30.714285714285715,59190
+,Marshall Islands,7.1315,171.1845,2020-01-27,0,0,", Marshall Islands",0.0,0.0,-1791.5714285714287,-30.714285714285715,59190
+,Marshall Islands,7.1315,171.1845,2020-01-28,0,0,", Marshall Islands",0.0,0.0,-1809.2857142857142,-30.857142857142858,59190
 ,Marshall Islands,7.1315,171.1845,2020-01-29,0,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
 ,Marshall Islands,7.1315,171.1845,2020-01-30,0,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
 ,Marshall Islands,7.1315,171.1845,2020-01-31,0,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
@@ -342,3 +342,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Marshall Islands,7.1315,171.1845,2020-12-27,4,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
 ,Marshall Islands,7.1315,171.1845,2020-12-28,4,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
 ,Marshall Islands,7.1315,171.1845,2020-12-29,4,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190
+,Marshall Islands,7.1315,171.1845,2020-12-30,4,0,", Marshall Islands",0.0,0.0,0.0,0.0,59190

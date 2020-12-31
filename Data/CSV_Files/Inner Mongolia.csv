@@ -1,6 +1,6 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 Inner Mongolia,China,44.0935,113.9448,2020-01-22,0,0,"Inner Mongolia, China",-1021.0,-4.0,-145.71428571428572,-0.5714285714285714,24706321
-Inner Mongolia,China,44.0935,113.9448,2020-01-23,0,0,"Inner Mongolia, China",0.0,0.0,-145.71428571428572,-0.5714285714285714,24706321
+Inner Mongolia,China,44.0935,113.9448,2020-01-23,0,0,"Inner Mongolia, China",0.0,0.0,-145.85714285714286,-0.5714285714285714,24706321
 Inner Mongolia,China,44.0935,113.9448,2020-01-24,1,0,"Inner Mongolia, China",1.0,0.0,-145.71428571428572,-0.5714285714285714,24706321
 Inner Mongolia,China,44.0935,113.9448,2020-01-25,7,0,"Inner Mongolia, China",6.0,0.0,-144.85714285714286,-0.5714285714285714,24706321
 Inner Mongolia,China,44.0935,113.9448,2020-01-26,7,0,"Inner Mongolia, China",0.0,0.0,-144.85714285714286,-0.5714285714285714,24706321
@@ -342,3 +342,4 @@ Inner Mongolia,China,44.0935,113.9448,2020-12-26,352,1,"Inner Mongolia, China",0
 Inner Mongolia,China,44.0935,113.9448,2020-12-27,358,1,"Inner Mongolia, China",6.0,0.0,1.1428571428571428,0.0,24706321
 Inner Mongolia,China,44.0935,113.9448,2020-12-28,359,1,"Inner Mongolia, China",1.0,0.0,1.0,0.0,24706321
 Inner Mongolia,China,44.0935,113.9448,2020-12-29,361,1,"Inner Mongolia, China",2.0,0.0,1.2857142857142858,0.0,24706321
+Inner Mongolia,China,44.0935,113.9448,2020-12-30,364,1,"Inner Mongolia, China",3.0,0.0,1.7142857142857142,0.0,24706321
