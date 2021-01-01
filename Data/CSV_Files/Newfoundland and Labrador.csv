@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-22,0,0,"Newfoundland and Labrador, Canada",-596.0,-8.0,-83.85714285714286,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-23,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.0,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-24,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.28571428571429,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-25,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.57142857142857,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-26,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.71428571428571,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-27,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-85.0,-1.1428571428571428,523790
-Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-28,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-85.14285714285714,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-22,0,0,"Newfoundland and Labrador, Canada",-599.0,-9.0,-84.0,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-23,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.28571428571429,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-24,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.57142857142857,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-25,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-84.71428571428571,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-26,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-85.0,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-27,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-85.14285714285714,-1.1428571428571428,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-28,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,-85.57142857142857,-1.2857142857142858,523790
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-29,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,0.0,0.0,523790
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-30,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,0.0,0.0,523790
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-01-31,0,0,"Newfoundland and Labrador, Canada",0.0,0.0,0.0,0.0,523790
@@ -343,3 +343,4 @@ Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-12-27,387,4,"Newfoundland
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-12-28,389,4,"Newfoundland and Labrador, Canada",2.0,0.0,1.0,0.0,523790
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-12-29,390,4,"Newfoundland and Labrador, Canada",1.0,0.0,1.0,0.0,523790
 Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-12-30,390,4,"Newfoundland and Labrador, Canada",0.0,0.0,0.8571428571428571,0.0,523790
+Newfoundland and Labrador,Canada,53.1355,-57.6604,2020-12-31,390,4,"Newfoundland and Labrador, Canada",0.0,0.0,0.8571428571428571,0.0,523790

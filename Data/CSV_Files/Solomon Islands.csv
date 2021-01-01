@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-,Solomon Islands,-9.6457,160.1562,2020-01-22,0,0,", Solomon Islands",-119740.0,-2665.0,-16003.0,-354.14285714285717,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-23,0,0,", Solomon Islands",0.0,0.0,-16259.285714285714,-358.14285714285717,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-24,0,0,", Solomon Islands",0.0,0.0,-16312.0,-361.7142857142857,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-25,0,0,", Solomon Islands",0.0,0.0,-16400.85714285714,-366.42857142857144,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-26,0,0,", Solomon Islands",0.0,0.0,-16475.285714285714,-370.7142857142857,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-27,0,0,", Solomon Islands",0.0,0.0,-16757.85714285714,-375.85714285714283,686884
-,Solomon Islands,-9.6457,160.1562,2020-01-28,0,0,", Solomon Islands",0.0,0.0,-17105.714285714286,-380.7142857142857,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-22,0,0,", Solomon Islands",-122152.0,-2697.0,-16259.285714285714,-358.14285714285717,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-23,0,0,", Solomon Islands",0.0,0.0,-16312.0,-361.7142857142857,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-24,0,0,", Solomon Islands",0.0,0.0,-16400.85714285714,-366.42857142857144,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-25,0,0,", Solomon Islands",0.0,0.0,-16475.285714285714,-370.7142857142857,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-26,0,0,", Solomon Islands",0.0,0.0,-16757.85714285714,-375.85714285714283,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-27,0,0,", Solomon Islands",0.0,0.0,-17105.714285714286,-380.7142857142857,686884
+,Solomon Islands,-9.6457,160.1562,2020-01-28,0,0,", Solomon Islands",0.0,0.0,-17450.285714285714,-385.2857142857143,686884
 ,Solomon Islands,-9.6457,160.1562,2020-01-29,0,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
 ,Solomon Islands,-9.6457,160.1562,2020-01-30,0,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
 ,Solomon Islands,-9.6457,160.1562,2020-01-31,0,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
@@ -343,3 +343,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Solomon Islands,-9.6457,160.1562,2020-12-28,17,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
 ,Solomon Islands,-9.6457,160.1562,2020-12-29,17,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
 ,Solomon Islands,-9.6457,160.1562,2020-12-30,17,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884
+,Solomon Islands,-9.6457,160.1562,2020-12-31,17,0,", Solomon Islands",0.0,0.0,0.0,0.0,686884

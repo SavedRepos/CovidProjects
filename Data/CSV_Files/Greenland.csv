@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Greenland,Denmark,71.7069,-42.6043,2020-01-22,0,0,"Greenland, Denmark",-605.0,0.0,-80.14285714285714,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-23,0,0,"Greenland, Denmark",0.0,0.0,-81.0,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-24,0,0,"Greenland, Denmark",0.0,0.0,-81.57142857142857,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-25,0,0,"Greenland, Denmark",0.0,0.0,-82.71428571428571,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-26,0,0,"Greenland, Denmark",0.0,0.0,-83.14285714285714,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-27,0,0,"Greenland, Denmark",0.0,0.0,-85.85714285714286,0.0,56770
-Greenland,Denmark,71.7069,-42.6043,2020-01-28,0,0,"Greenland, Denmark",0.0,0.0,-86.42857142857143,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-22,0,0,"Greenland, Denmark",-610.0,0.0,-81.0,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-23,0,0,"Greenland, Denmark",0.0,0.0,-81.57142857142857,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-24,0,0,"Greenland, Denmark",0.0,0.0,-82.71428571428571,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-25,0,0,"Greenland, Denmark",0.0,0.0,-83.14285714285714,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-26,0,0,"Greenland, Denmark",0.0,0.0,-85.85714285714286,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-27,0,0,"Greenland, Denmark",0.0,0.0,-86.42857142857143,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-01-28,0,0,"Greenland, Denmark",0.0,0.0,-87.14285714285714,0.0,56770
 Greenland,Denmark,71.7069,-42.6043,2020-01-29,0,0,"Greenland, Denmark",0.0,0.0,0.0,0.0,56770
 Greenland,Denmark,71.7069,-42.6043,2020-01-30,0,0,"Greenland, Denmark",0.0,0.0,0.0,0.0,56770
 Greenland,Denmark,71.7069,-42.6043,2020-01-31,0,0,"Greenland, Denmark",0.0,0.0,0.0,0.0,56770
@@ -343,3 +343,4 @@ Greenland,Denmark,71.7069,-42.6043,2020-12-27,26,0,"Greenland, Denmark",0.0,0.0,
 Greenland,Denmark,71.7069,-42.6043,2020-12-28,26,0,"Greenland, Denmark",0.0,0.0,0.14285714285714285,0.0,56770
 Greenland,Denmark,71.7069,-42.6043,2020-12-29,26,0,"Greenland, Denmark",0.0,0.0,0.14285714285714285,0.0,56770
 Greenland,Denmark,71.7069,-42.6043,2020-12-30,27,0,"Greenland, Denmark",1.0,0.0,0.2857142857142857,0.0,56770
+Greenland,Denmark,71.7069,-42.6043,2020-12-31,27,0,"Greenland, Denmark",0.0,0.0,0.2857142857142857,0.0,56770

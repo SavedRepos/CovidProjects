@@ -1,10 +1,10 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-South Australia,Australia,-34.9285,138.6007,2020-01-22,0,0,"South Australia, Australia",-1253.0,-6.0,-177.14285714285714,-0.8571428571428571,1767200
+South Australia,Australia,-34.9285,138.6007,2020-01-22,0,0,"South Australia, Australia",-1253.0,-6.0,-177.28571428571428,-0.8571428571428571,1767200
 South Australia,Australia,-34.9285,138.6007,2020-01-23,0,0,"South Australia, Australia",0.0,0.0,-177.28571428571428,-0.8571428571428571,1767200
-South Australia,Australia,-34.9285,138.6007,2020-01-24,0,0,"South Australia, Australia",0.0,0.0,-177.28571428571428,-0.8571428571428571,1767200
-South Australia,Australia,-34.9285,138.6007,2020-01-25,0,0,"South Australia, Australia",0.0,0.0,-178.0,-0.8571428571428571,1767200
-South Australia,Australia,-34.9285,138.6007,2020-01-26,0,0,"South Australia, Australia",0.0,0.0,-178.28571428571428,-0.8571428571428571,1767200
-South Australia,Australia,-34.9285,138.6007,2020-01-27,0,0,"South Australia, Australia",0.0,0.0,-178.57142857142858,-0.8571428571428571,1767200
+South Australia,Australia,-34.9285,138.6007,2020-01-24,0,0,"South Australia, Australia",0.0,0.0,-178.0,-0.8571428571428571,1767200
+South Australia,Australia,-34.9285,138.6007,2020-01-25,0,0,"South Australia, Australia",0.0,0.0,-178.28571428571428,-0.8571428571428571,1767200
+South Australia,Australia,-34.9285,138.6007,2020-01-26,0,0,"South Australia, Australia",0.0,0.0,-178.57142857142858,-0.8571428571428571,1767200
+South Australia,Australia,-34.9285,138.6007,2020-01-27,0,0,"South Australia, Australia",0.0,0.0,-179.0,-0.8571428571428571,1767200
 South Australia,Australia,-34.9285,138.6007,2020-01-28,0,0,"South Australia, Australia",0.0,0.0,-179.0,-0.8571428571428571,1767200
 South Australia,Australia,-34.9285,138.6007,2020-01-29,0,0,"South Australia, Australia",0.0,0.0,0.0,0.0,1767200
 South Australia,Australia,-34.9285,138.6007,2020-01-30,0,0,"South Australia, Australia",0.0,0.0,0.0,0.0,1767200
@@ -343,3 +343,4 @@ South Australia,Australia,-34.9285,138.6007,2020-12-27,572,4,"South Australia, A
 South Australia,Australia,-34.9285,138.6007,2020-12-28,572,4,"South Australia, Australia",0.0,0.0,0.8571428571428571,0.0,1767200
 South Australia,Australia,-34.9285,138.6007,2020-12-29,575,4,"South Australia, Australia",3.0,0.0,1.2857142857142858,0.0,1767200
 South Australia,Australia,-34.9285,138.6007,2020-12-30,576,4,"South Australia, Australia",1.0,0.0,1.1428571428571428,0.0,1767200
+South Australia,Australia,-34.9285,138.6007,2020-12-31,580,4,"South Australia, Australia",4.0,0.0,1.7142857142857142,0.0,1767200

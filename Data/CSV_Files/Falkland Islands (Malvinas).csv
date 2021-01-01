@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-22,0,0,"Falkland Islands (Malvinas), United Kingdom",-3024.0,-58.0,-411.42857142857144,-8.142857142857142,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-22,0,0,"Falkland Islands (Malvinas), United Kingdom",-3058.0,-58.0,-411.42857142857144,-8.142857142857142,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-23,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-411.42857142857144,-8.142857142857142,3480
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-24,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-411.42857142857144,-8.142857142857142,3480
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-25,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-422.85714285714283,-8.142857142857142,3480
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-26,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-427.0,-8.142857142857142,3480
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-27,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-429.14285714285717,-8.142857142857142,3480
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-28,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-432.0,-8.285714285714286,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-24,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-422.85714285714283,-8.142857142857142,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-25,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-427.0,-8.142857142857142,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-26,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-429.14285714285717,-8.142857142857142,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-27,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-432.0,-8.285714285714286,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-28,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,-436.85714285714283,-8.285714285714286,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-29,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-30,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-01-31,0,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
@@ -343,3 +343,4 @@ Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-12-27,29,0,"Fa
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-12-28,29,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.8571428571428571,0.0,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-12-29,29,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
 Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-12-30,29,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,2020-12-31,29,0,"Falkland Islands (Malvinas), United Kingdom",0.0,0.0,0.0,0.0,3480
