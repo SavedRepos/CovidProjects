@@ -45,7 +45,8 @@ bc_cases_url = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Das
 # "Date","Province","HA","HSDA","Cases_Reported","Cases_Reported_Smoothed"
 bc_regional_url = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv'
 
-base_url = 'https://jpaulhart.github.io'
+#base_url = 'https://jpaulhart.github.io'
+base_url = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files'
 
 # #######################################################################################
 # Read data and cache
