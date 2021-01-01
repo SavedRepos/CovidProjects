@@ -190,6 +190,20 @@ def stSetup():
 #      - Graphs
 #      - Sidebar select provinces
 # #######################################################################################
+# Province_State,
+# Country_Region,
+# Lat,
+# Long,
+# Date,
+# Confirmed,
+# Deaths,
+# Combined_Key,
+# ConfirmedNew,
+# DeathsNew,
+# ConfirmedNewMean,
+# DeathsNewMean,
+# Population
+
 
 def stSection1():
     global last_date
