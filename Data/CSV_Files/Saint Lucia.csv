@@ -1,6 +1,6 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 ,Saint Lucia,13.9094,-60.9789,2020-01-22,0,0,", Saint Lucia",-32.0,0.0,-4.285714285714286,0.0,183627
-,Saint Lucia,13.9094,-60.9789,2020-01-23,0,0,", Saint Lucia",0.0,0.0,-4.285714285714286,0.0,183627
+,Saint Lucia,13.9094,-60.9789,2020-01-23,0,0,", Saint Lucia",0.0,0.0,-4.571428571428571,0.0,183627
 ,Saint Lucia,13.9094,-60.9789,2020-01-24,0,0,", Saint Lucia",0.0,0.0,-4.571428571428571,0.0,183627
 ,Saint Lucia,13.9094,-60.9789,2020-01-25,0,0,", Saint Lucia",0.0,0.0,-4.571428571428571,0.0,183627
 ,Saint Lucia,13.9094,-60.9789,2020-01-26,0,0,", Saint Lucia",0.0,0.0,-4.571428571428571,0.0,183627
@@ -344,3 +344,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Saint Lucia,13.9094,-60.9789,2020-12-29,331,5,", Saint Lucia",0.0,0.0,4.0,0.0,183627
 ,Saint Lucia,13.9094,-60.9789,2020-12-30,340,5,", Saint Lucia",9.0,0.0,5.0,0.0,183627
 ,Saint Lucia,13.9094,-60.9789,2020-12-31,353,5,", Saint Lucia",13.0,0.0,6.857142857142857,0.0,183627
+,Saint Lucia,13.9094,-60.9789,2021-01-01,353,5,", Saint Lucia",0.0,0.0,6.857142857142857,0.0,183627

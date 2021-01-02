@@ -1,9 +1,9 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
 ,MS Zaandam,0.0,0.0,2020-01-22,0,0,", MS Zaandam",-46415.0,-495.0,-6458.428571428572,-65.42857142857143,0
 ,MS Zaandam,0.0,0.0,2020-01-23,0,0,", MS Zaandam",0.0,0.0,-6458.428571428572,-65.42857142857143,0
-,MS Zaandam,0.0,0.0,2020-01-24,0,0,", MS Zaandam",0.0,0.0,-6458.428571428572,-65.42857142857143,0
-,MS Zaandam,0.0,0.0,2020-01-25,0,0,", MS Zaandam",0.0,0.0,-6549.857142857143,-69.57142857142857,0
-,MS Zaandam,0.0,0.0,2020-01-26,0,0,", MS Zaandam",0.0,0.0,-6584.0,-69.85714285714286,0
+,MS Zaandam,0.0,0.0,2020-01-24,0,0,", MS Zaandam",0.0,0.0,-6549.857142857143,-69.57142857142857,0
+,MS Zaandam,0.0,0.0,2020-01-25,0,0,", MS Zaandam",0.0,0.0,-6584.0,-69.85714285714286,0
+,MS Zaandam,0.0,0.0,2020-01-26,0,0,", MS Zaandam",0.0,0.0,-6630.714285714285,-70.71428571428571,0
 ,MS Zaandam,0.0,0.0,2020-01-27,0,0,", MS Zaandam",0.0,0.0,-6630.714285714285,-70.71428571428571,0
 ,MS Zaandam,0.0,0.0,2020-01-28,0,0,", MS Zaandam",0.0,0.0,-6630.714285714285,-70.71428571428571,0
 ,MS Zaandam,0.0,0.0,2020-01-29,0,0,", MS Zaandam",0.0,0.0,0.0,0.0,0
@@ -344,3 +344,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,MS Zaandam,0.0,0.0,2020-12-29,9,2,", MS Zaandam",0.0,0.0,0.0,0.0,0
 ,MS Zaandam,0.0,0.0,2020-12-30,9,2,", MS Zaandam",0.0,0.0,0.0,0.0,0
 ,MS Zaandam,0.0,0.0,2020-12-31,9,2,", MS Zaandam",0.0,0.0,0.0,0.0,0
+,MS Zaandam,0.0,0.0,2021-01-01,9,2,", MS Zaandam",0.0,0.0,0.0,0.0,0

@@ -1,11 +1,11 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Northern Territory,Australia,-12.4634,130.8456,2020-01-22,0,0,"Northern Territory, Australia",-4928.0,-54.0,-692.4285714285714,-7.571428571428571,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-23,0,0,"Northern Territory, Australia",0.0,0.0,-694.0,-7.571428571428571,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-24,0,0,"Northern Territory, Australia",0.0,0.0,-696.0,-7.714285714285714,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-25,0,0,"Northern Territory, Australia",0.0,0.0,-697.2857142857143,-7.714285714285714,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-26,0,0,"Northern Territory, Australia",0.0,0.0,-700.8571428571429,-7.714285714285714,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-27,0,0,"Northern Territory, Australia",0.0,0.0,-703.2857142857143,-7.714285714285714,245400
-Northern Territory,Australia,-12.4634,130.8456,2020-01-28,0,0,"Northern Territory, Australia",0.0,0.0,-704.0,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-22,0,0,"Northern Territory, Australia",-4947.0,-54.0,-694.0,-7.571428571428571,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-23,0,0,"Northern Territory, Australia",0.0,0.0,-696.0,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-24,0,0,"Northern Territory, Australia",0.0,0.0,-697.2857142857143,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-25,0,0,"Northern Territory, Australia",0.0,0.0,-700.8571428571429,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-26,0,0,"Northern Territory, Australia",0.0,0.0,-703.2857142857143,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-27,0,0,"Northern Territory, Australia",0.0,0.0,-704.0,-7.714285714285714,245400
+Northern Territory,Australia,-12.4634,130.8456,2020-01-28,0,0,"Northern Territory, Australia",0.0,0.0,-706.7142857142857,-7.714285714285714,245400
 Northern Territory,Australia,-12.4634,130.8456,2020-01-29,0,0,"Northern Territory, Australia",0.0,0.0,0.0,0.0,245400
 Northern Territory,Australia,-12.4634,130.8456,2020-01-30,0,0,"Northern Territory, Australia",0.0,0.0,0.0,0.0,245400
 Northern Territory,Australia,-12.4634,130.8456,2020-01-31,0,0,"Northern Territory, Australia",0.0,0.0,0.0,0.0,245400
@@ -344,3 +344,4 @@ Northern Territory,Australia,-12.4634,130.8456,2020-12-28,74,0,"Northern Territo
 Northern Territory,Australia,-12.4634,130.8456,2020-12-29,74,0,"Northern Territory, Australia",0.0,0.0,0.42857142857142855,0.0,245400
 Northern Territory,Australia,-12.4634,130.8456,2020-12-30,74,0,"Northern Territory, Australia",0.0,0.0,0.14285714285714285,0.0,245400
 Northern Territory,Australia,-12.4634,130.8456,2020-12-31,75,0,"Northern Territory, Australia",1.0,0.0,0.2857142857142857,0.0,245400
+Northern Territory,Australia,-12.4634,130.8456,2021-01-01,75,0,"Northern Territory, Australia",0.0,0.0,0.2857142857142857,0.0,245400

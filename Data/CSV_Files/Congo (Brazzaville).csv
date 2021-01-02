@@ -2,9 +2,9 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-22,0,0,", Congo (Brazzaville)",-823.0,-10.0,-102.14285714285714,-1.0,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-23,0,0,", Congo (Brazzaville)",0.0,0.0,-102.14285714285714,-1.0,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-24,0,0,", Congo (Brazzaville)",0.0,0.0,-102.14285714285714,-1.0,5518087
-,Congo (Brazzaville),-0.228,15.8277,2020-01-25,0,0,", Congo (Brazzaville)",0.0,0.0,-102.14285714285714,-1.0,5518087
+,Congo (Brazzaville),-0.228,15.8277,2020-01-25,0,0,", Congo (Brazzaville)",0.0,0.0,-109.28571428571429,-1.2857142857142858,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-26,0,0,", Congo (Brazzaville)",0.0,0.0,-109.28571428571429,-1.2857142857142858,5518087
-,Congo (Brazzaville),-0.228,15.8277,2020-01-27,0,0,", Congo (Brazzaville)",0.0,0.0,-109.28571428571429,-1.2857142857142858,5518087
+,Congo (Brazzaville),-0.228,15.8277,2020-01-27,0,0,", Congo (Brazzaville)",0.0,0.0,-117.57142857142857,-1.4285714285714286,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-28,0,0,", Congo (Brazzaville)",0.0,0.0,-117.57142857142857,-1.4285714285714286,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-29,0,0,", Congo (Brazzaville)",0.0,0.0,0.0,0.0,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-01-30,0,0,", Congo (Brazzaville)",0.0,0.0,0.0,0.0,5518087
@@ -344,3 +344,4 @@ Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,Confir
 ,Congo (Brazzaville),-0.228,15.8277,2020-12-29,6908,107,", Congo (Brazzaville)",0.0,0.0,48.142857142857146,1.0,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-12-30,6908,107,", Congo (Brazzaville)",0.0,0.0,48.142857142857146,1.0,5518087
 ,Congo (Brazzaville),-0.228,15.8277,2020-12-31,7107,108,", Congo (Brazzaville)",199.0,1.0,76.57142857142857,1.1428571428571428,5518087
+,Congo (Brazzaville),-0.228,15.8277,2021-01-01,7107,108,", Congo (Brazzaville)",0.0,0.0,76.57142857142857,1.1428571428571428,5518087

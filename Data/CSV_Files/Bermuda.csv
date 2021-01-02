@@ -1,7 +1,7 @@
 Province_State,Country_Region,Lat,Long,Date,Confirmed,Deaths,Combined_Key,ConfirmedNew,DeathsNew,ConfirmedNewMean,DeathsNewMean,Population
-Bermuda,United Kingdom,32.3078,-64.7505,2020-01-22,0,0,"Bermuda, United Kingdom",-13.0,0.0,-1.5714285714285714,0.0,62278
+Bermuda,United Kingdom,32.3078,-64.7505,2020-01-22,0,0,"Bermuda, United Kingdom",-13.0,0.0,-1.7142857142857142,0.0,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-01-23,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.7142857142857142,0.0,62278
-Bermuda,United Kingdom,32.3078,-64.7505,2020-01-24,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.7142857142857142,0.0,62278
+Bermuda,United Kingdom,32.3078,-64.7505,2020-01-24,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.8571428571428572,0.0,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-01-25,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.8571428571428572,0.0,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-01-26,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.8571428571428572,0.0,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-01-27,0,0,"Bermuda, United Kingdom",0.0,0.0,-1.8571428571428572,0.0,62278
@@ -344,3 +344,4 @@ Bermuda,United Kingdom,32.3078,-64.7505,2020-12-28,581,10,"Bermuda, United Kingd
 Bermuda,United Kingdom,32.3078,-64.7505,2020-12-29,595,10,"Bermuda, United Kingdom",14.0,0.0,6.0,0.14285714285714285,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-12-30,595,10,"Bermuda, United Kingdom",0.0,0.0,6.0,0.14285714285714285,62278
 Bermuda,United Kingdom,32.3078,-64.7505,2020-12-31,604,10,"Bermuda, United Kingdom",9.0,0.0,6.285714285714286,0.14285714285714285,62278
+Bermuda,United Kingdom,32.3078,-64.7505,2021-01-01,604,10,"Bermuda, United Kingdom",0.0,0.0,6.142857142857143,0.14285714285714285,62278
