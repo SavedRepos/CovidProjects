@@ -89,7 +89,7 @@ def processGlobalDataframe():
         dfa['ConfirmedNewMean'] = dfa['ConfirmedNew'].rolling(7).mean()
         dfa['DeathsNewMean'] = dfa['DeathsNew'].rolling(7).mean()
         #dfa['Population'] = 0
-        df.drop(df.index[[0,1,2,3,4,5,6]])
+        dfa.drop(dfa.index[[0,1,2,3,4,5,6]])
 
 
         file_name = dfa['Country_Region'].values[0] + '.csv'

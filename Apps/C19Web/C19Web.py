@@ -225,7 +225,7 @@ def stSection1():
     dfTable = dfTable.sort_values('Date', ascending=False)
     dfTable = pd.merge(dfProv, dfTable, on=['Date'], how='outer')
     dfTable = dfTable.replace(np.nan,0)
-    print(dfTable.tail(n=10))
+    #print(dfTable.tail(n=10))
     #dfLast = dfProv.tail(n=1)
     #last_date = dfLast['Date'].values[0]
     dfProv = df_days(dfProv, last_date, time_frame)
@@ -275,7 +275,10 @@ def stProvGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['ConfirmedNewMean'], label='New Cases - Smoothed')
         plt.grid(b=True, which='major')
+        print('section1, confirmed')
+        print(dfProv.info())
         st.pyplot(fig1)
+        print('section1, confirmed done')
         plt.close()
 
     #-------------------------------------------------------------------------
@@ -297,6 +300,7 @@ def stProvGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['DeathsNewMean'], label='New Deaths - Smoothed')
         plt.grid(b=True, which='major')
+        print('section1, deaths')
         st.pyplot(fig2)
         plt.close()
         #if prov == 'British Columbia':
@@ -378,8 +382,19 @@ def stProvCaseTable(dfProv):
     df  = dfw.merge(dfg, left_on=['HA','HSDA'], right_on=['HA','HSDA'])
 
     # Table of details for last week 
-    table_rows = '<div style="font-size: small">\n'
-    table_rows += '<table border=1>\n'
+    table_rows =  '<div style="font-size: small">\n'
+    # table_rows += '<style>\n'
+    # table_rows += 'table, th, td {\n'
+    # table_rows += '  border: 1px solid black;\n'
+    # table_rows += '  border-collapse: collapse;\n'
+    # table_rows += '}\n'
+    # table_rows += 'th, td {\n'
+    # table_rows += '  padding: 1px;\n'
+    # table_rows += '}\n'
+    # table_rows += '</style>\n'
+
+
+    table_rows += '<table border=1 cellspacing=0 cellpadding=0>\n'
     table_rows += '<tr><th>Health Authority</th><th>Heath Services Delivery Area</th><th colspan=2 style="text-align:center">Cases</th></tr>\n'
     table_rows += '<tr><th></th><th></th><th>Last 7 Days</th><th>Cases Total</th></tr>\n'
 
@@ -483,6 +498,7 @@ def stSection2():
         # Add a legend
         plt.legend(['Alberta', 'British Columbia', 'Ontario', 'Quebec'])
         plt.grid(b=True, which='major')
+        print('section2, confirmed')
         st.pyplot(fig1)
         plt.close()
 
@@ -513,6 +529,7 @@ def stSection2():
         # Add a legend
         plt.legend(['Alberta', 'British Columbia', 'Ontario', 'Quebec'])
         plt.grid(b=True, which='major')
+        print('section2, deaths')
         st.pyplot(fig1)
         plt.close()
 
@@ -550,6 +567,7 @@ def stSection3():
         # Add a legend
         # plt.legend(countries)
         plt.grid(b=True, which='major')
+        print('section3, confirmed')
         st.pyplot(fig1)
         plt.close()
 
@@ -574,6 +592,7 @@ def stSection3():
         # Add a legend
         # plt.legend(countries)
         plt.grid(b=True, which='major')
+        print('section3, deaths')
         st.pyplot(fig1)
         plt.close()
 
