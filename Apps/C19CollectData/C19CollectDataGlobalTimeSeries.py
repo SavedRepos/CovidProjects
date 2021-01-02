@@ -43,7 +43,7 @@ def processGlobalDataframe():
     # 3. Merge confirmed and deaths dataframes
     df = pd.merge(dfConfirmed, dfDeaths, on=['Province/State', 'Country/Region', 'Lat', 'Long', 'Date'])
     df = df.rename(columns={'Country/Region': 'Country_Region', 'Province/State': 'Province_State'})
-    df = df.replace(np.nan, '', regex=True)
+    #df = df.replace(np.nan, '', regex=True)
     df['Date'] = pd.to_datetime(df['Date'])
 
     df['Country_Region'] = df['Country_Region'].map(lambda x: x.replace(',',''))
@@ -60,6 +60,7 @@ def processGlobalDataframe():
     df['ConfirmedNewMean'] = df['ConfirmedNew'].rolling(7).mean()
     df['DeathsNewMean'] = df['DeathsNew'].rolling(7).mean()
     df['Population'] = 0
+    #df.drop(df.index[[0,1,2,3,4,5,6]])
 
     global_keys = df.Combined_Key.unique()
     for key in global_keys:

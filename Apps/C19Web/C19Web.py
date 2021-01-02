@@ -46,7 +46,9 @@ bc_cases_url = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Das
 bc_regional_url = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv'
 
 #base_url = 'https://jpaulhart.github.io'
-base_url = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files'
+base_url = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files/'
+#           https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files/Canada.csv
+
 
 # #######################################################################################
 # Read data and cache
@@ -81,8 +83,10 @@ selected_provinces = ('British Columbia')
 time_frames = ('All', '1 Week', '2 Weeks', '3 Weeks', '1 Month', '3 Months', '6 Months')
 time_frame = 'All'
 
+# https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files/Canada.csv
 last_date = ''
-dfCanada = pd.read_csv(urllib.parse.urljoin(base_url, 'Canada.csv'))
+canada_url = f'{base_url}Canada.csv'
+dfCanada = pd.read_csv(canada_url)
 
 dfLast = dfCanada.tail(n=1)
 last_date = dfLast['Date'].values[0]
@@ -90,7 +94,7 @@ last_date = dfLast['Date'].values[0]
 dfFirst = dfCanada.head(n=1)
 first_date = dfFirst['Date'].values[0]
 
-world_pop = read_csv(urllib.parse.urljoin(base_url, 'WorldPop.csv'))
+#world_pop = read_csv(urllib.parse.urljoin(base_url, 'WorldPop.csv'))
 
 # Provincial Population
 prov_pop = {
@@ -211,7 +215,7 @@ def stSection1():
     prov = 'British Columbia'
     
     file_name = f'{prov}.csv'.replace(' ', '%20')
-    dfProv = pd.read_csv(urllib.parse.urljoin(base_url, file_name))
+    dfProv = pd.read_csv(f'{base_url}{file_name}')
     
     dfTests = pd.read_csv(bc_tests_url)
     dfTable = dfTests.copy() 
@@ -432,19 +436,19 @@ def stSection2():
     st.markdown('----')
     st.markdown(f"#### Compare Canada's Largest Provinces")
     #st.markdown(f'###### Report Date: {last_date}')
-    dfal = pd.read_csv(urllib.parse.urljoin(base_url, 'Alberta.csv'))
+    dfal = pd.read_csv(f'{base_url}Alberta.csv')
     dfal = df_days(dfal, last_date, time_frame)
     dfal['ConfirmedNewPer1M'] = dfal['ConfirmedNewMean'] / prov_pop['AL']
     dfal['DeathsNewPer1M']    = dfal['DeathsNewMean'] / prov_pop['AL']
-    dfbc = pd.read_csv(urllib.parse.urljoin(base_url, 'British%20Columbia.csv'))
+    dfbc = pd.read_csv(f'{base_url}British%20Columbia.csv')
     dfbc = df_days(dfbc, last_date, time_frame)
     dfbc['ConfirmedNewPer1M'] = dfbc['ConfirmedNewMean'] / prov_pop['AL']
     dfbc['DeathsNewPer1M']    = dfbc['DeathsNewMean'] / prov_pop['AL']
-    dfon = pd.read_csv(urllib.parse.urljoin(base_url, 'Ontario.csv'))
+    dfon = pd.read_csv(f'{base_url}Ontario.csv')
     dfon = df_days(dfon, last_date, time_frame)
     dfon['ConfirmedNewPer1M'] = dfon['ConfirmedNewMean'] / prov_pop['AL']
     dfon['DeathsNewPer1M']    = dfon['DeathsNewMean'] / prov_pop['AL']
-    dfqu = pd.read_csv(urllib.parse.urljoin(base_url, 'Quebec.csv'))
+    dfqu = pd.read_csv(f'{base_url}Quebec.csv')
     dfqu = df_days(dfqu, last_date, time_frame)
     dfqu['ConfirmedNewPer1M'] = dfqu['ConfirmedNewMean'] / prov_pop['AL']
     dfqu['DeathsNewPer1M']    = dfqu['DeathsNewMean'] / prov_pop['AL']
@@ -539,9 +543,9 @@ def stSection3():
 
         dfCountry = dfIndex[dfIndex['Country'] == 'US']
         file_name = dfCountry['File'].values[0]
-        file_url = urllib.parse.urljoin(base_url, file_name)
+        file_url = f'{base_url}{file_name}'
         df = pd.read_csv(file_url)
-        plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country'])
+        plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country_Region'])
 
         # Add a legend
         # plt.legend(countries)
@@ -563,9 +567,9 @@ def stSection3():
         for cty in countries:
             dfCountry = dfIndex[dfIndex['Country'] == 'US']
             file_name = dfCountry['File'].values[0]
-            file_url = urllib.parse.urljoin(base_url, file_name)
+            file_url = f'{base_url}{file_name}'
             df = pd.read_csv(file_url)
-            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country'])
+            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
         # plt.legend(countries)
@@ -601,9 +605,9 @@ def stSection4():
         for cty in countries:
             dfCountry = dfIndex[dfIndex['Country'] == cty]
             file_name = dfCountry['File'].values[0]
-            file_url = urllib.parse.urljoin(base_url, file_name.replace(' ', '%20'))
+            file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
-            plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country'])
+            plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country_Region'])
 
         # Add a legend
         plt.legend(countries)
@@ -625,9 +629,9 @@ def stSection4():
         for cty in countries:
             dfCountry = dfIndex[dfIndex['Country'] == cty]
             file_name = dfCountry['File'].values[0]
-            file_url = urllib.parse.urljoin(base_url, file_name.replace(' ', '%20'))
+            file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
-            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country'])
+            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
         plt.legend(countries)
@@ -663,9 +667,9 @@ def stSection5():
         for cty in countries2:
             dfCountry = dfIndex[dfIndex['Country'] == cty]
             file_name = dfCountry['File'].values[0]
-            file_url = urllib.parse.urljoin(base_url, file_name.replace(' ', '%20'))
+            file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
-            plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country'])
+            plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country_Region'])
 
         # Add a legend
         plt.legend(countries2)
@@ -687,9 +691,9 @@ def stSection5():
         for cty in countries2:
             dfCountry = dfIndex[dfIndex['Country'] == cty]
             file_name = dfCountry['File'].values[0]
-            file_url = urllib.parse.urljoin(base_url, file_name.replace(' ', '%20'))
+            file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
-            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country'])
+            plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
         plt.legend(countries2)
@@ -705,7 +709,7 @@ def getDfForCountry(countryName):
     global last_date
 
     country = countryName.replace(' ', '%20')
-    df = pd.read_csv(urllib.parse.urljoin(base_url, f'{country}.csv'))
+    df = pd.read_csv(f'{base_url}{country}.csv')
     df = df_days(df, last_date, time_frame)
 
     return df
