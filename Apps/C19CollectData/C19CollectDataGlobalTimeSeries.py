@@ -55,12 +55,12 @@ def processGlobalDataframe():
     # 4. Add columns 
     df['Combined_Key'] = df['Province_State']  + ', ' + df['Country_Region']
 
-    df['ConfirmedNew'] = df['Confirmed'].diff()
-    df['DeathsNew'] = df['Deaths'].diff()
-    df['ConfirmedNewMean'] = df['ConfirmedNew'].rolling(7).mean()
-    df['DeathsNewMean'] = df['DeathsNew'].rolling(7).mean()
-    df['Population'] = 0
-    #df.drop(df.index[[0,1,2,3,4,5,6]])
+    # df['ConfirmedNew'] = df['Confirmed'].diff()
+    # df['DeathsNew'] = df['Deaths'].diff()
+    # df['ConfirmedNewMean'] = df['ConfirmedNew'].rolling(7).mean()
+    # df['DeathsNewMean'] = df['DeathsNew'].rolling(7).mean()
+    # df['Population'] = 0
+    # #df.drop(df.index[[0,1,2,3,4,5,6]])
 
     global_keys = df.Combined_Key.unique()
     for key in global_keys:
@@ -83,6 +83,15 @@ def processGlobalDataframe():
     # 5 Write csv files
     for global_key in global_keys:
         dfa = df[df['Combined_Key'] == global_key].copy()
+
+        dfa['ConfirmedNew'] = dfa['Confirmed'].diff()
+        dfa['DeathsNew'] = dfa['Deaths'].diff()
+        dfa['ConfirmedNewMean'] = dfa['ConfirmedNew'].rolling(7).mean()
+        dfa['DeathsNewMean'] = dfa['DeathsNew'].rolling(7).mean()
+        #dfa['Population'] = 0
+        df.drop(df.index[[0,1,2,3,4,5,6]])
+
+
         file_name = dfa['Country_Region'].values[0] + '.csv'
         if dfa['Province_State'].values[0] == '':
             file_name = dfa['Country_Region'].values[0]

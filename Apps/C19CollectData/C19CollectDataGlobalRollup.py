@@ -89,7 +89,7 @@ def processProvinceRollup(df):
         dfx['ConfirmedNewMean'] = dfx['ConfirmedNew'].rolling(7).mean()
         dfx['DeathsNewMean'] = dfx['DeathsNew'].rolling(7).mean()
         dfx['Population'] = 0
-        #dfx.drop(dfx.index[[0,1,2,3,4,5,6]])
+        dfx.drop(dfx.index[[0,1,2,3,4,5,6]])
         #print(dfx.head(n=10))
 
         file_name = dfa['Country_Region'].values[0] + '.csv'

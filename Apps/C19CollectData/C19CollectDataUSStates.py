@@ -82,7 +82,7 @@ def processUSDataframe():
         dfs['DeathsNew'] = dfs['Deaths'].diff()
         dfs['ConfirmedNewMean'] = dfs['ConfirmedNew'].rolling(7).mean()
         dfs['DeathsNewMean'] = dfs['DeathsNew'].rolling(7).mean()
-        #dfs.drop(dfs.index[[0,1,2,3,4,5,6]])
+        dfs.drop(dfs.index[[0,1,2,3,4,5,6]])
 
         file_name = dfs['Province_State'].values[0] + '.csv'
         file_name = file_name.replace(',', '')
