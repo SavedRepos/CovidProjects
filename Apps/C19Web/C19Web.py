@@ -87,6 +87,7 @@ time_frame = 'All'
 last_date = ''
 canada_url = f'{base_url}Canada.csv'
 dfCanada = pd.read_csv(canada_url)
+dfCanada['Date']= pd.to_datetime(dfCanada['Date'])
 
 dfLast = dfCanada.tail(n=1)
 last_date = dfLast['Date'].values[0]
@@ -118,7 +119,7 @@ def df_days(dfProv, last_date, time_frame):
     global first_date
 
     first_date = parser.parse('2020-03-01')
-    in_date = parser.parse(last_date)
+    in_date = parser.parse(last_date.strftime("%Y-%m-%d"))
 
     if time_frame == time_frames[1]:
         date_after = in_date - relativedelta(weeks=1)
@@ -216,8 +217,10 @@ def stSection1():
     
     file_name = f'{prov}.csv'.replace(' ', '%20')
     dfProv = pd.read_csv(f'{base_url}{file_name}')
+    dfProv['Date']= pd.to_datetime(dfProv['Date'])
     
     dfTests = pd.read_csv(bc_tests_url)
+    dfTests['Date']= pd.to_datetime(dfTests['Date'])
     dfTable = dfTests.copy() 
     dfTable['New_Positives'] = dfTable['New_Tests'] * (dfTable['Positivity'] / 100)
 
@@ -452,18 +455,22 @@ def stSection2():
     st.markdown(f"#### Compare Canada's Largest Provinces")
     #st.markdown(f'###### Report Date: {last_date}')
     dfal = pd.read_csv(f'{base_url}Alberta.csv')
+    dfal['Date']= pd.to_datetime(dfal['Date'])
     dfal = df_days(dfal, last_date, time_frame)
     dfal['ConfirmedNewPer1M'] = dfal['ConfirmedNewMean'] / prov_pop['AL']
     dfal['DeathsNewPer1M']    = dfal['DeathsNewMean'] / prov_pop['AL']
     dfbc = pd.read_csv(f'{base_url}British%20Columbia.csv')
+    dfbc['Date']= pd.to_datetime(dfbc['Date'])
     dfbc = df_days(dfbc, last_date, time_frame)
     dfbc['ConfirmedNewPer1M'] = dfbc['ConfirmedNewMean'] / prov_pop['AL']
     dfbc['DeathsNewPer1M']    = dfbc['DeathsNewMean'] / prov_pop['AL']
     dfon = pd.read_csv(f'{base_url}Ontario.csv')
+    dfon['Date']= pd.to_datetime(dfon['Date'])
     dfon = df_days(dfon, last_date, time_frame)
     dfon['ConfirmedNewPer1M'] = dfon['ConfirmedNewMean'] / prov_pop['AL']
     dfon['DeathsNewPer1M']    = dfon['DeathsNewMean'] / prov_pop['AL']
     dfqu = pd.read_csv(f'{base_url}Quebec.csv')
+    dfqu['Date']= pd.to_datetime(dfqu['Date'])
     dfqu = df_days(dfqu, last_date, time_frame)
     dfqu['ConfirmedNewPer1M'] = dfqu['ConfirmedNewMean'] / prov_pop['AL']
     dfqu['DeathsNewPer1M']    = dfqu['DeathsNewMean'] / prov_pop['AL']
@@ -587,6 +594,7 @@ def stSection3():
             file_name = dfCountry['File'].values[0]
             file_url = f'{base_url}{file_name}'
             df = pd.read_csv(file_url)
+            df['Date']= pd.to_datetime(df['Date'])
             plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
@@ -626,6 +634,7 @@ def stSection4():
             file_name = dfCountry['File'].values[0]
             file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
+            df['Date']= pd.to_datetime(df['Date'])
             plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country_Region'])
 
         # Add a legend
@@ -650,6 +659,7 @@ def stSection4():
             file_name = dfCountry['File'].values[0]
             file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
+            df['Date']= pd.to_datetime(df['Date'])
             plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
@@ -688,6 +698,7 @@ def stSection5():
             file_name = dfCountry['File'].values[0]
             file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
+            df['Date']= pd.to_datetime(df['Date'])
             plt.plot(df['Date'], df['ConfirmedNewMean'], label=df['Country_Region'])
 
         # Add a legend
@@ -712,6 +723,7 @@ def stSection5():
             file_name = dfCountry['File'].values[0]
             file_url = f'{base_url}{file_name.replace(" ", "%20")}'
             df = pd.read_csv(file_url)
+            df['Date']= pd.to_datetime(df['Date'])
             plt.plot(df['Date'], df['DeathsNewMean'], label=df['Country_Region'])
 
         # Add a legend
@@ -729,6 +741,7 @@ def getDfForCountry(countryName):
 
     country = countryName.replace(' ', '%20')
     df = pd.read_csv(f'{base_url}{country}.csv')
+    df['Date']= pd.to_datetime(df['Date'])
     df = df_days(df, last_date, time_frame)
 
     return df
