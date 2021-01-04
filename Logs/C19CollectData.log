@@ -1043,3 +1043,34 @@ Mon Jan 4 06:53:32 PST 2021 Creating csv data
 Mon Jan 4 06:54:22 PST 2021 Creating csv data complete
 
 Add files
+
+Mon Jan 4 06:54:22 PST 2021 Commit files
+[main 2418989] Daily update Mon Jan  4 06:54:22 PST 2021
+ 1 file changed, 31 insertions(+)
+
+Mon Jan 4 06:54:22 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   d8ba0b8..2418989  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Mon Jan 4 06:54:25 PST 2021 End C19 Data Collection complete -------------------------------------------
+
+Mon Jan 4 09:54:25 PST 2021 C19 Data Collection starting -----------------------------------------------
+Mon Jan 4 09:54:25 PST 2021 Python version
+Python 3.8.6
+Mon Jan 4 09:54:26 PST 2021 Removing old data
+Mon Jan 4 09:54:26 PST 2021 Cloning data
+Cloning into 'COVID-19'...
+Updating files:  25% (219/844)Updating files:  26% (220/844)Updating files:  27% (228/844)Updating files:  28% (237/844)Updating files:  29% (245/844)Updating files:  30% (254/844)Updating files:  31% (262/844)Updating files:  32% (271/844)Updating files:  33% (279/844)Updating files:  34% (287/844)Updating files:  35% (296/844)Updating files:  36% (304/844)Updating files:  37% (313/844)Updating files:  38% (321/844)Updating files:  38% (329/844)Updating files:  39% (330/844)Updating files:  40% (338/844)Updating files:  41% (347/844)Updating files:  42% (355/844)Updating files:  42% (357/844)Updating files:  43% (363/844)Updating files:  44% (372/844)Updating files:  44% (378/844)Updating files:  45% (380/844)Updating files:  46% (389/844)Updating files:  47% (397/844)Updating files:  47% (403/844)Updating files:  48% (406/844)Updating files:  49% (414/844)Updating files:  50% (422/844)Updating files:  51% (431/844)Updating files:  52% (439/844)Updating files:  53% (448/844)Updating files:  54% (456/844)Updating files:  55% (465/844)Updating files:  56% (473/844)Updating files:  57% (482/844)Updating files:  58% (490/844)Updating files:  59% (498/844)Updating files:  60% (507/844)Updating files:  61% (515/844)Updating files:  62% (524/844)Updating files:  63% (532/844)Updating files:  64% (541/844)Updating files:  65% (549/844)Updating files:  66% (558/844)Updating files:  67% (566/844)Updating files:  68% (574/844)Updating files:  69% (583/844)Updating files:  70% (591/844)Updating files:  71% (600/844)Updating files:  72% (608/844)Updating files:  73% (617/844)Updating files:  74% (625/844)Updating files:  75% (633/844)Updating files:  76% (642/844)Updating files:  77% (650/844)Updating files:  78% (659/844)Updating files:  79% (667/844)Updating files:  80% (676/844)Updating files:  81% (684/844)Updating files:  82% (693/844)Updating files:  82% (698/844)Updating files:  83% (701/844)Updating files:  84% (709/844)Updating files:  85% (718/844)Updating files:  86% (726/844)Updating files:  86% (729/844)Updating files:  87% (735/844)Updating files:  88% (743/844)Updating files:  89% (752/844)Updating files:  90% (760/844)Updating files:  91% (769/844)Updating files:  92% (777/844)Updating files:  93% (785/844)Updating files:  94% (794/844)Updating files:  95% (802/844)Updating files:  96% (811/844)Updating files:  97% (819/844)Updating files:  98% (828/844)Updating files:  99% (836/844)Updating files: 100% (844/844)Updating files: 100% (844/844), done.
+Mon Jan 4 09:55:52 PST 2021 Creating csv data
+2021-01-04 09:55:57.635 INFO    root: Processing Global csv files
+2021-01-04 09:55:58.543 ERROR   root: ERROR: Global No population for Diamond Princess, Canada
+2021-01-04 09:55:58.552 ERROR   root: ERROR: Global No population for Grand Princess, Canada
+2021-01-04 09:55:58.650 ERROR   root: ERROR: Global No population for Repatriated Travellers, Canada
+2021-01-04 09:55:59.399 ERROR   root: ERROR: Global No population for , Diamond Princess
+2021-01-04 09:55:59.655 ERROR   root: ERROR: Global No population for Wallis and Futuna, France
+2021-01-04 09:56:00.117 ERROR   root: ERROR: Global No population for , MS Zaandam
+2021-01-04 09:56:08.905 INFO    root: Processing U.S. csv files
+Mon Jan 4 09:57:00 PST 2021 Creating csv data complete
+
+Add files
