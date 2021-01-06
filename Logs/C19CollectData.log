@@ -1452,3 +1452,35 @@ Tue Jan 5 22:26:32 PST 2021 Creating csv data
 Tue Jan 5 22:27:24 PST 2021 Creating csv data complete
 
 Add files
+
+Tue Jan 5 22:27:24 PST 2021 Commit files
+[main 07d5c4d] Daily update Tue Jan  5 22:27:24 PST 2021
+ 338 files changed, 707 insertions(+), 11333 deletions(-)
+ rewrite Data/CSV_Files/Index.csv (99%)
+
+Tue Jan 5 22:27:25 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   f3aea2e..07d5c4d  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Tue Jan 5 22:27:29 PST 2021 End C19 Data Collection complete -------------------------------------------
+
+Wed Jan 6 01:27:29 PST 2021 C19 Data Collection starting -----------------------------------------------
+Wed Jan 6 01:27:29 PST 2021 Python version
+Python 3.8.6
+Wed Jan 6 01:27:29 PST 2021 Removing old data
+Wed Jan 6 01:27:30 PST 2021 Cloning data
+Cloning into 'COVID-19'...
+Updating files:  34% (296/848)Updating files:  35% (297/848)Updating files:  36% (306/848)Updating files:  37% (314/848)Updating files:  38% (323/848)Updating files:  39% (331/848)Updating files:  40% (340/848)Updating files:  41% (348/848)Updating files:  42% (357/848)Updating files:  43% (365/848)Updating files:  44% (374/848)Updating files:  45% (382/848)Updating files:  45% (386/848)Updating files:  46% (391/848)Updating files:  47% (399/848)Updating files:  48% (408/848)Updating files:  49% (416/848)Updating files:  50% (424/848)Updating files:  51% (433/848)Updating files:  52% (441/848)Updating files:  53% (450/848)Updating files:  54% (458/848)Updating files:  55% (467/848)Updating files:  56% (475/848)Updating files:  57% (484/848)Updating files:  58% (492/848)Updating files:  59% (501/848)Updating files:  60% (509/848)Updating files:  61% (518/848)Updating files:  62% (526/848)Updating files:  63% (535/848)Updating files:  64% (543/848)Updating files:  65% (552/848)Updating files:  66% (560/848)Updating files:  67% (569/848)Updating files:  68% (577/848)Updating files:  69% (586/848)Updating files:  70% (594/848)Updating files:  71% (603/848)Updating files:  72% (611/848)Updating files:  73% (620/848)Updating files:  74% (628/848)Updating files:  75% (636/848)Updating files:  76% (645/848)Updating files:  77% (653/848)Updating files:  78% (662/848)Updating files:  79% (670/848)Updating files:  80% (679/848)Updating files:  81% (687/848)Updating files:  82% (696/848)Updating files:  83% (704/848)Updating files:  84% (713/848)Updating files:  85% (721/848)Updating files:  86% (730/848)Updating files:  86% (733/848)Updating files:  87% (738/848)Updating files:  88% (747/848)Updating files:  89% (755/848)Updating files:  90% (764/848)Updating files:  90% (770/848)Updating files:  91% (772/848)Updating files:  92% (781/848)Updating files:  93% (789/848)Updating files:  94% (798/848)Updating files:  95% (806/848)Updating files:  96% (815/848)Updating files:  97% (823/848)Updating files:  97% (826/848)Updating files:  98% (832/848)Updating files:  99% (840/848)Updating files: 100% (848/848)Updating files: 100% (848/848), done.
+Wed Jan 6 01:29:01 PST 2021 Creating csv data
+2021-01-06 01:29:05.540 INFO    root: Processing Global csv files
+2021-01-06 01:29:06.805 ERROR   root: ERROR: Global No population for Diamond Princess, Canada
+2021-01-06 01:29:06.818 ERROR   root: ERROR: Global No population for Grand Princess, Canada
+2021-01-06 01:29:06.952 ERROR   root: ERROR: Global No population for Repatriated Travellers, Canada
+2021-01-06 01:29:07.647 ERROR   root: ERROR: Global No population for , Diamond Princess
+2021-01-06 01:29:07.958 ERROR   root: ERROR: Global No population for Wallis and Futuna, France
+2021-01-06 01:29:08.479 ERROR   root: ERROR: Global No population for , MS Zaandam
+2021-01-06 01:29:18.398 INFO    root: Processing U.S. csv files
+Wed Jan 6 01:29:54 PST 2021 Creating csv data complete
+
+Add files
