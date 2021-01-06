@@ -57,7 +57,7 @@ base_url = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/
 @st.cache
 def read_csv(url):
     fixed_url = url.replace(' ', '%20')
-    return pd.read
+    return pd.read_csv(fixed_url)
 
 # #######################################################################################
 # Setup global data

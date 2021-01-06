@@ -35,6 +35,20 @@ WORLD_POP        = '/Users/paulhart/Development/CovidProjects/Data/WorldPop.csv'
 # Global Variables
 # ----------------------------------------------------------------------------
 
+class file_index_entry():
+    combined_key = ''
+    file_name = ''
+    country = ''
+    province = ''
+
+    def __init__(self, combined_key, file_name, country, province):
+        self.combined_key = combined_key
+        self.file_name = file_name
+        self.country = country
+        self.province = province
+
+file_index = []
+
 global global_keys
 global global_new_keys
 
