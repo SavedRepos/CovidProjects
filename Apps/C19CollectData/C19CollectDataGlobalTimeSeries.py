@@ -19,6 +19,9 @@ import C19CollectDataMain as cd
 
 global global_new_keys
 
+#global file_index
+#global file_index_entry
+
 # ----------------------------------------------------------------------------
 # Processing global dataframe
 # ----------------------------------------------------------------------------
@@ -102,5 +105,13 @@ def processGlobalDataframe():
         file_spec = file_name  + '.csv'
         file_path = os.path.join(cd.CSV_DIRECTORY, file_spec)
         dfa.to_csv(file_path, index=False)
+
+        iEntry = cd.file_index_entry(dfa['Combined_Key'],
+                                     file_spec,
+                                     dfa['Country_Region'],
+                                     dfa['Province_State'] 
+                                    )
+
+        cd.file_index.append(iEntry)
 
     return df

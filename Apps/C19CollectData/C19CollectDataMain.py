@@ -17,6 +17,7 @@ import pandas as pd
 import C19CollectDataGlobalTimeSeries as gts
 import C19CollectDataGlobalRollup as gpr
 import C19CollectDataUSStates as uss
+import C19CollectDataWriteCsv as wcs
 
 # ----------------------------------------------------------------------------
 # Constants
@@ -35,6 +36,11 @@ WORLD_POP        = '/Users/paulhart/Development/CovidProjects/Data/WorldPop.csv'
 # Global Variables
 # ----------------------------------------------------------------------------
 
+global global_keys
+global global_new_keys
+#global file_index_entry
+#global file_index
+
 class file_index_entry():
     combined_key = ''
     file_name = ''
@@ -49,9 +55,6 @@ class file_index_entry():
 
 file_index = []
 
-global global_keys
-global global_new_keys
-
 dfPopulations = pd.read_csv(WORLD_POP)
 
 # ----------------------------------------------------------------------------
@@ -62,10 +65,9 @@ def process_dataframe():
     ''' Processing global and US state data'''
 
     dfGlobal = gts.processGlobalDataframe()
-    dfGlobal = gpr.processProvinceRollup(dfGlobal)
-
-    dfUS = uss.processUSDataframe()
-
+    gpr.processProvinceRollup(dfGlobal)
+    uss.processUSDataframe()
+    wcs.writeWriteIndexCsv()
 
 # ----------------------------------------------------------------------------
 # Entry point

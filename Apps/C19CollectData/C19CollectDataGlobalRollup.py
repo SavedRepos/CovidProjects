@@ -17,6 +17,9 @@ import streamlit as st
 
 import C19CollectDataMain as cd
 
+#global file_index
+#global file_index_entry
+
 COUNTRY_LOCATION = {
     'Australia'     : '-35.308056,149.124444',
     'Canada'        : '45.4,-75.666667',
@@ -97,6 +100,14 @@ def processProvinceRollup(df):
         file_name = file_name.replace('*', '')
         file_path = os.path.join(cd.CSV_DIRECTORY, file_name)
         dfx.to_csv(file_path, index=False)
+
+        cd.file_index.append(
+            cd.file_index_entry(dfx['Combined_Key'],
+                                file_name,
+                                dfx['Country_Region'],
+                                dfx['Province_State'] 
+            )
+        )
         
     return df
 

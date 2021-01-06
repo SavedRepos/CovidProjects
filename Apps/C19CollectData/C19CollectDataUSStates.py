@@ -16,6 +16,9 @@ import pandas as pd
 
 import C19CollectDataMain as cd
 
+#global file_index
+#global file_index_entry
+
 # Prepare US dataframe
 # ----------------------------------------------------------------------------
 
@@ -89,6 +92,14 @@ def processUSDataframe():
         file_name = file_name.replace('*', '')
         file_path = os.path.join(cd.CSV_DIRECTORY, file_name)
         dfs.to_csv(file_path, index=False)
+
+        cd.file_index.append(
+            cd.file_index_entry(dfs['Combined_Key'],
+                                file_name,
+                                dfs['Country_Region'],
+                                dfs['Province_State'] 
+            )
+        )
 
     return df
 
