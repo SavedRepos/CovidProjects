@@ -94,10 +94,10 @@ def processUSDataframe():
         dfs.to_csv(file_path, index=False)
 
         cd.file_index.append(
-            cd.file_index_entry(dfs['Combined_Key'],
+            cd.file_index_entry(dfs['Combined_Key'].values[0],
                                 file_name,
-                                dfs['Country_Region'],
-                                dfs['Province_State'] 
+                                dfs['Country_Region'].values[0],
+                                dfs['Province_State'].values[0] 
             )
         )
 

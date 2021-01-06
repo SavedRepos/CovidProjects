@@ -106,10 +106,10 @@ def processGlobalDataframe():
         file_path = os.path.join(cd.CSV_DIRECTORY, file_spec)
         dfa.to_csv(file_path, index=False)
 
-        iEntry = cd.file_index_entry(dfa['Combined_Key'],
+        iEntry = cd.file_index_entry(dfa['Combined_Key'].values[0],
                                      file_spec,
-                                     dfa['Country_Region'],
-                                     dfa['Province_State'] 
+                                     dfa['Country_Region'].values[0],
+                                     dfa['Province_State'].values[0] 
                                     )
 
         cd.file_index.append(iEntry)
