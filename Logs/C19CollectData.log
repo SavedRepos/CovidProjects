@@ -391,3 +391,34 @@ ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
 Sun Jan 10 05:20:43 PST 2021 Creating csv data complete
 
 Add files
+
+Sun Jan 10 05:20:43 PST 2021 Commit files
+[main c1ab1e5] Daily update Sun Jan 10 05:20:43 PST 2021
+ 2 files changed, 32 insertions(+), 1 deletion(-)
+
+Sun Jan 10 05:20:43 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   06b57d9..c1ab1e5  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Sun Jan 10 05:20:46 PST 2021 End C19 Data Collection complete -------------------------------------------
+
+Sun Jan 10 08:20:46 PST 2021 C19 Data Collection starting -----------------------------------------------
+Sun Jan 10 08:20:46 PST 2021 Python version
+Python 3.8.6
+Sun Jan 10 08:20:47 PST 2021 Removing old data
+Sun Jan 10 08:20:47 PST 2021 Cloning data
+Cloning into 'COVID-19'...
+Updating files:  42% (361/856)Updating files:  43% (369/856)Updating files:  44% (377/856)Updating files:  45% (386/856)Updating files:  46% (394/856)Updating files:  47% (403/856)Updating files:  48% (411/856)Updating files:  49% (420/856)Updating files:  50% (428/856)Updating files:  51% (437/856)Updating files:  52% (446/856)Updating files:  53% (454/856)Updating files:  54% (463/856)Updating files:  55% (471/856)Updating files:  56% (480/856)Updating files:  57% (488/856)Updating files:  58% (497/856)Updating files:  59% (506/856)Updating files:  60% (514/856)Updating files:  61% (523/856)Updating files:  62% (531/856)Updating files:  63% (540/856)Updating files:  64% (548/856)Updating files:  65% (557/856)Updating files:  66% (565/856)Updating files:  67% (574/856)Updating files:  68% (583/856)Updating files:  69% (591/856)Updating files:  70% (600/856)Updating files:  71% (608/856)Updating files:  72% (617/856)Updating files:  73% (625/856)Updating files:  74% (634/856)Updating files:  75% (642/856)Updating files:  76% (651/856)Updating files:  77% (660/856)Updating files:  78% (668/856)Updating files:  79% (677/856)Updating files:  80% (685/856)Updating files:  81% (694/856)Updating files:  82% (702/856)Updating files:  83% (711/856)Updating files:  84% (720/856)Updating files:  85% (728/856)Updating files:  86% (737/856)Updating files:  87% (745/856)Updating files:  88% (754/856)Updating files:  89% (762/856)Updating files:  90% (771/856)Updating files:  90% (773/856)Updating files:  91% (779/856)Updating files:  92% (788/856)Updating files:  93% (797/856)Updating files:  94% (805/856)Updating files:  95% (814/856)Updating files:  96% (822/856)Updating files:  97% (831/856)Updating files:  98% (839/856)Updating files:  99% (848/856)Updating files: 100% (856/856)Updating files: 100% (856/856), done.
+Sun Jan 10 08:21:43 PST 2021 Creating csv data
+Traceback (most recent call last):
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 17, in <module>
+    import C19CollectDataGlobalTimeSeries as gts
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataGlobalTimeSeries.py", line 18, in <module>
+    import C19CollectDataMain as cd
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 20, in <module>
+    import C19CollectDataWriteCsv as wcs
+ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
+Sun Jan 10 08:21:47 PST 2021 Creating csv data complete
+
+Add files
