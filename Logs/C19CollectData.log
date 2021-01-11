@@ -583,3 +583,37 @@ ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
 Sun Jan 10 23:31:37 PST 2021 Creating csv data complete
 
 Add files
+
+Sun Jan 10 23:31:37 PST 2021 Commit files
+[main 9b0e6a9] Daily update Sun Jan 10 23:31:37 PST 2021
+ 2 files changed, 38 insertions(+), 1 deletion(-)
+
+Sun Jan 10 23:31:38 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   818b1b4..9b0e6a9  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Sun Jan 10 23:31:41 PST 2021 End C19 Data Collection complete -------------------------------------------
+
+Mon Jan 11 02:31:41 PST 2021 C19 Data Collection starting -----------------------------------------------
+Mon Jan 11 02:31:41 PST 2021 Python version
+Python 3.8.6
+Mon Jan 11 02:31:41 PST 2021 Removing old data
+Mon Jan 11 02:31:42 PST 2021 Cloning data
+Cloning into 'COVID-19'...
+error: RPC failed; curl 56 LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 60
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Mon Jan 11 02:42:15 PST 2021 Creating csv data
+Traceback (most recent call last):
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 17, in <module>
+    import C19CollectDataGlobalTimeSeries as gts
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataGlobalTimeSeries.py", line 18, in <module>
+    import C19CollectDataMain as cd
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 20, in <module>
+    import C19CollectDataWriteCsv as wcs
+ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
+Mon Jan 11 02:42:18 PST 2021 Creating csv data complete
+
+Add files
