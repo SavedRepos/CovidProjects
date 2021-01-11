@@ -58,13 +58,28 @@ PAGES = {
 # ############################################################################
 
 def main():
-    # stSetup()
-    # stSection1()
-    # stSection2()
-    # stSection3()
-    # stSection4()
-    # stSection5()
+    """Main function of the App"""
+    st.sidebar.title("Navigation")
+    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 
-if __name__ == '__main__':
+    page = PAGES[selection]
+
+    with st.spinner(f"Loading {selection} ..."):
+        ast.shared.components.write_page(page)
+    st.sidebar.title("About")
+    st.sidebar.info(
+        """
+        The majority of the data used in this application is sourced from the 
+        [Johns Hopkins University Center for Systems Science and Engineering (JHU CCSE)]
+        (https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases).
+"""
+
+        """
+        The Covid testing data for British Columbia is from the [BC Centre for Disease Control]
+        (http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv)
+        """
+    )
+
+
+if __name__ == "__main__":
     main()
-
