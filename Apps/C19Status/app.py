@@ -16,8 +16,8 @@ import streamlit as st
 import awesome_streamlit as ast
 
 import src.pages.about
+import src.pages.bc
 import src.pages.countries
-import src.pages.home
 import src.pages.provinces
 
 # #######################################################################################
@@ -47,7 +47,7 @@ BASE_URL = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/
 ast.core.services.other.set_logging_format()
 
 PAGES = {
-    "Home": src.pages.home,
+    "B.C.": src.pages.bc,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
     "About": src.pages.about,
