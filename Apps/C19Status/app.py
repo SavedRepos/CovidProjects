@@ -19,6 +19,7 @@ import src.pages.about
 import src.pages.bc
 import src.pages.countries
 import src.pages.provinces
+import src.pages.vaccinations
 
 # #######################################################################################
 # Global Constants
@@ -50,6 +51,7 @@ PAGES = {
     "B.C.": src.pages.bc,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
+    "Vaccinations": src.pages.vaccinations,
     "About": src.pages.about,
 }
 
@@ -69,14 +71,14 @@ def main():
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        The majority of the data used in this application is sourced from the 
-        [Johns Hopkins University Center for Systems Science and Engineering (JHU CCSE)]
-        (https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases).
-"""
-
-        """
-        The Covid testing data for British Columbia is from the [BC Centre for Disease Control]
+        All data used in this app is provided by official sources:
+        ### Data Sources
+        1. Case data is from [CSSE at Johns Hopkins University COVID-19 Github repository]
+        (https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
+        2. British Columbia testing data for from the [BC Centre for Disease Control]
         (http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv)
+        3. Canadian vaccination data is found in the [COVID-19 Canada Github repository]
+        (https://github.com/ishaberry/Covid19Canada)
         """
     )
 
