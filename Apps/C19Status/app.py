@@ -19,6 +19,7 @@ import src.pages.about
 import src.pages.bc
 import src.pages.countries
 import src.pages.provinces
+import src.pages.testing
 import src.pages.vaccinations
 
 # #######################################################################################
@@ -48,9 +49,10 @@ BASE_URL = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/
 ast.core.services.other.set_logging_format()
 
 PAGES = {
-    "B.C.": src.pages.bc,
+    "B.C. Cases": src.pages.bc,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
+    "B.C. Testing": src.pages.testing,
     "B.C. Vaccinations": src.pages.vaccinations,
     "About": src.pages.about,
 }
