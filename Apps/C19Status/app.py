@@ -51,7 +51,7 @@ PAGES = {
     "B.C.": src.pages.bc,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
-    "Vaccinations": src.pages.vaccinations,
+    "B.C. Vaccinations": src.pages.vaccinations,
     "About": src.pages.about,
 }
 
