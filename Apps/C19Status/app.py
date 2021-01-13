@@ -54,7 +54,7 @@ PAGES = {
     "B.C. Vaccinations": src.pages.vaccinations,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
-    "About": src.pages.about,
+    "About": src.pages.about
 }
 
 last_date = ""
