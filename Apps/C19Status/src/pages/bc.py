@@ -9,13 +9,11 @@
 """BC page shows BC Covid stats"""
 import datetime
 from datetime import timedelta
-
 import pandas as pd
-
 import streamlit as st
-
 import awesome_streamlit as ast
 
+import app 
 
 # pylint: disable=line-too-long
 def write():
@@ -23,24 +21,13 @@ def write():
     with st.spinner("Loading Home ..."):
         #ast.shared.components.title_awesome("and so it goes...")
         st.title("British Columbia Covid Stats")
-        with st.beta_expander("Confirmed Cases and Deaths", expanded=True):
-            st.write("""
-                The chart above shows some numbers I picked for you.
-                I rolled actual dice for these, so they're *guaranteed* to
-                be random.
-            """)
-        with st.beta_expander("Confirmed Cases by Health Authority", expanded=False):
-            st.markdown("#### ")
-
-            testingTable()
+    casesByHA()
 
 
-def testingTable():
-
-    BC_REGIONAL_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv'
+def casesByHA():
 
     # Create dataframe with all records
-    df = pd.read_csv(BC_REGIONAL_URL)
+    df = pd.read_csv(app.BC_REGIONAL_URL)
     df = df.drop(columns=['Cases_Reported_Smoothed'])
     df = df.sort_values(by=['Date', 'HA', 'HSDA'], ascending=[False, True, True])
 
@@ -58,16 +45,6 @@ def testingTable():
 
     # Table of details for last week 
     table_rows =  '<div style="font-size: 9pt">\n'
-    # table_rows += '<style>\n'
-    # table_rows += 'table, th, td {\n'
-    # table_rows += '  border: 1px solid black;\n'
-    # table_rows += '  border-collapse: collapse;\n'
-    # table_rows += '}\n'
-    # table_rows += 'th, td {\n'
-    # table_rows += '  padding: 1px;\n'
-    # table_rows += '}\n'
-    # table_rows += '</style>\n'
-
 
     table_rows += '<table border=1 cellspacing=0 cellpadding=0>\n'
     table_rows += '<tr><th>Health Authority</th><th>Heath Services Delivery Area</th><th colspan=2 style="text-align:center">Cases</th></tr>\n'
@@ -88,10 +65,11 @@ def testingTable():
             hsda = 'Total'
         casesX = "{:,}".format(row['Cases_Reported_x'])
         casesY = "{:,}".format(row['Cases_Reported_y'])
-        table_row = f'<tr><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casesX}</td><td style="text-align:right">{casesY}</td></tr>\n'
+        table_row = f'<tr><td cellspacing=1 cellpadding=1>{ha}</td><td cellspacing=1 cellpadding=1>{hsda}</td><td style="text-align:right">{casesX}</td><td style="text-align:right" cellspacing=1 cellpadding=1>{casesY}</td></tr>\n'
         table_rows += table_row
 
     table_rows += '</table>\n'
     table_rows += '</div>\n'
+    
     st.markdown('#### BCCDC Cases by Region')
     st.markdown(table_rows, unsafe_allow_html=True)

@@ -57,20 +57,37 @@ PAGES = {
     "About": src.pages.about,
 }
 
+last_date = ""
+first_date = ""
+
+canada_url = f'{BASE_URL}Canada.csv'
+df = pd.read_csv(canada_url)
+
+dfLast = df.tail(n=1)
+last_date = dfLast['Date'].values[0]
+
+dfFirst = df.head(n=1)
+first_date = dfFirst['Date'].values[0]
+
+date_range = f'Data date range: {first_date} to {last_date}'
+
 # ############################################################################
 # Entry Point
 # ############################################################################
 
 def main():
     """Main function of the App"""
-    st.sidebar.title("Navigation")
-    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
+    st.sidebar.subheader("COVID-19")
+    st.sidebar.markdown(f'<div style="font-size: 9pt">{date_range}</div>\n', unsafe_allow_html=True)
+
+    st.sidebar.subheader("Navigation")
+    selection = st.sidebar.radio("Select report to view:", list(PAGES.keys()))
 
     page = PAGES[selection]
 
     with st.spinner(f"Loading {selection} ..."):
         ast.shared.components.write_page(page)
-    st.sidebar.title("About")
+    st.sidebar.subheader("About")
     st.sidebar.info(
         """
         All data used in this app is provided by official sources:
