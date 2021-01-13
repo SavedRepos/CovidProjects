@@ -1170,3 +1170,34 @@ ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
 Wed Jan 13 06:05:50 PST 2021 Creating csv data complete
 
 Add files
+
+Wed Jan 13 06:05:50 PST 2021 Commit files
+[main adff2b8] Daily update Wed Jan 13 06:05:50 PST 2021
+ 1 file changed, 31 insertions(+)
+
+Wed Jan 13 06:05:50 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   1a1124b..adff2b8  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Wed Jan 13 06:05:54 PST 2021 End C19 Data Collection complete -------------------------------------------
+
+Wed Jan 13 09:05:54 PST 2021 C19 Data Collection starting -----------------------------------------------
+Wed Jan 13 09:05:54 PST 2021 Python version
+Python 3.8.6
+Wed Jan 13 09:05:54 PST 2021 Removing old data
+Wed Jan 13 09:05:54 PST 2021 Cloning data
+Cloning into 'COVID-19'...
+fatal: unable to access 'https://github.com/CSSEGISandData/COVID-19.git/': Could not resolve host: github.com
+Wed Jan 13 09:06:25 PST 2021 Creating csv data
+Traceback (most recent call last):
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 17, in <module>
+    import C19CollectDataGlobalTimeSeries as gts
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataGlobalTimeSeries.py", line 18, in <module>
+    import C19CollectDataMain as cd
+  File "/Users/paulhart/Development/CovidProjects/Apps/C19CollectData/C19CollectDataMain.py", line 20, in <module>
+    import C19CollectDataWriteCsv as wcs
+ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
+Wed Jan 13 09:06:27 PST 2021 Creating csv data complete
+
+Add files
