@@ -50,10 +50,10 @@ ast.core.services.other.set_logging_format()
 
 PAGES = {
     "B.C. Cases": src.pages.bc,
-    "Countries": src.pages.countries,
-    "Provinces": src.pages.provinces,
     "B.C. Testing": src.pages.testing,
     "B.C. Vaccinations": src.pages.vaccinations,
+    "Countries": src.pages.countries,
+    "Provinces": src.pages.provinces,
     "About": src.pages.about,
 }
 
@@ -77,7 +77,7 @@ def main():
         ### Data Sources
         1. Case data is from [CSSE at Johns Hopkins University COVID-19 Github repository]
         (https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
-        2. British Columbia testing data for from the [BC Centre for Disease Control]
+        2. BC testing data for from the [BC Centre for Disease Control]
         (http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv)
         3. Canadian vaccination data is found in the [COVID-19 Canada Github repository]
         (https://github.com/ishaberry/Covid19Canada)

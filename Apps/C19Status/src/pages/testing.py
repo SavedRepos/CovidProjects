@@ -18,12 +18,10 @@ import app
 # pylint: disable=line-too-long
 def write():
     """Used to write the page in the app.py file"""
-    with st.spinner("Loading Home ..."):
-        #ast.shared.components.title_awesome("and so it goes...")
-        st.title("British Columbia Covid Testing")
-        st.markdown("#### ")
+    st.title("British Columbia Covid Testing")
+    st.markdown("#### ")
 
-        testingTable()
+    testingTable()
 
 
 def testingTable():
