@@ -21,6 +21,9 @@ def write():
     st.title("British Columbia Covid Stats")
     casesByHA()
 
+#
+#  Display Cases by Health Authority
+#
 def casesByHA():
 
     # Create dataframe with all records
@@ -48,9 +51,9 @@ def casesByHA():
     table_rows += '<tr><th></th><th></th><th>Last 7 Days</th><th>Cases Total</th></tr>\n'
 
     unique_has = df.HA.unique()
-    print(f'uniques_has: {unique_has}')
+    #print(f'uniques_has: {unique_has}')
     for unique_ha in unique_has:
-        print(f'unique_ha: {unique_ha}')
+        #print(f'unique_ha: {unique_ha}')
         dfha = df[df['HA'] == unique_ha]
         dfhagr =  pd.DataFrame(dfha.groupby(['HA', 'HSDA'], as_index=False).sum())
         ha = ''
@@ -76,10 +79,11 @@ def casesByHA():
                 casey += f"<br />{'{:,}'.format(row['Cases_Reported_y'])}"
         table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casey}</td></tr>\n'
         table_rows += table_row
-        print('Add', table_row)
+        #print('Add', table_row)
 
     table_rows += '</table>\n'
     table_rows += '</div>\n'
     
     st.markdown('#### BCCDC Cases by Region')
+    st.markdown('#### ')
     st.markdown(table_rows, unsafe_allow_html=True)
