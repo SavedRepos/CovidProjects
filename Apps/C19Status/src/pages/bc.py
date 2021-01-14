@@ -97,23 +97,36 @@ def casesByHA():
     table_rows += '<tr><th>Health Authority</th><th>Heath Services Delivery Area</th><th colspan=2 style="text-align:center">Cases</th></tr>\n'
     table_rows += '<tr><th></th><th></th><th>Last 7 Days</th><th>Cases Total</th></tr>\n'
 
-    last_ha = ''
-    for index, row in df.iterrows():
-        ha = row['HA']
-        if ha == last_ha:
-            display_ha = ''
-        else:
-            display_ha = f'<b>{ha}</b>'
-        if ha == 'All':
-            ha = 'Total'
-        hsda = row['HSDA']
-        if hsda == 'All':
-            hsda = 'Total'
-        casesX = "{:,}".format(row['Cases_Reported_x'])
-        casesY = "{:,}".format(row['Cases_Reported_y'])
-        table_row = f'<tr><td>{display_ha}</td><td>{hsda}</td><td style="text-align:right">{casesX}</td><td style="text-align:right">{casesY}</td></tr>\n'
+    unique_has = df.HA.unique()
+    print(f'uniques_has: {unique_has}')
+    for unique_ha in unique_has:
+        print(f'unique_ha: {unique_ha}')
+        dfha = df[df['HA']] == unique_ha
+        dfhagr =  pd.DataFrame(dfha.groupby(['HA', 'HSDA'], as_index=False).sum())
+        ha = ''
+        hsda = ''
+        casex = ''
+        casey = ''
+        isTotal = True
+        previous_ha = ''
+        html_line = ''
+        for index, row in dfhagr.iterrows():
+            casex = casesX = '{:,}'.format(row['Cases_Reported_x'])
+            casey = '{:,}'.format(row['Cases_Reported_y'])
+            if unique_ha['HA'] != previous_ha:
+                if html_line != '':
+                    table_rows += html_line
+                    html_line = ''
+                ha = f'<b>{ha}</b>'
+                hsda = f'<b>{hsda}</b>'
+                casex = f'<b>{casex}</b>'
+                casey = f'<b>{casey}</b>'
+            else:
+                hsda += f'<br />{hsda}'
+                casex += f'<br />{casex}'
+                casey += f'<br />{casey}'
+        table_row = f'<tr><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casesx}</td><td style="text-align:right">{casesy}</td></tr>\n'
         table_rows += table_row
-        last_ha = ha
 
     table_rows += '</table>\n'
     table_rows += '</div>\n'
