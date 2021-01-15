@@ -9,6 +9,8 @@
 """bccases page shows BC Covid Cases"""
 import datetime
 from datetime import timedelta
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -47,11 +49,12 @@ def write():
 #
 def casesByDate(dfProv):
     st.markdown('#### BC New Cases and Deaths by Date')
+    st.markdown('#### ')
     
     #st.markdown(f'##### 10 Days')
 
     # Table of details for last week 
-    cases_data = '<div style="font-size: small">\n'
+    cases_data = '<div style="font-size: 9pt">\n'
     cases_data += '<table border=1>\n'
     cases_data += '<tr><th> </th><th colspan=2 style="text-align:center">Cases</th><th colspan=2 style="text-align:center">Deaths</th><th colspan=4 style="text-align:center">Testing</th></tr>\n'
     cases_data += '<tr><th>Date</th><th>Total</th><th>New</th><th>Total</th><th>New</th><th>New</th><th>Positives</th><th>% Pos.</th><th>Hours</th></tr>\n'
@@ -97,8 +100,61 @@ def casesByDate(dfProv):
 #
 #  Display Cases on a graph
 #
-def graphsByGraphs():    
+def graphsByGraphs(dfProv):    
     st.markdown('#### BC New Cases and Deaths by Date')
+    st.markdown('#### ')
+
+        #-------------------------------------------------------------------------
+    # Create Confirmed New Plot
+    #-------------------------------------------------------------------------
+    col1, col2 = st.beta_columns(2)
+    with col1:
+
+        #st.markdown(f'##### New Cases')
+
+        fig1 = plt.figure(1, figsize=(8, 5))
+
+        plt.title('New Cases - Smoothed', fontsize='large')
+        plt.xlabel="Date"
+        plt.ylabel="Number"
+
+        #plt.xticks(rotation=45)
+        ax = plt.gca()
+        ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+
+        plt.plot(dfProv['Date'], dfProv['ConfirmedNewMean'], label='New Cases - Smoothed')
+        plt.grid(b=True, which='major')
+        print('section1, confirmed')
+        print(dfProv.info())
+        st.pyplot(fig1)
+        print('section1, confirmed done')
+        plt.close()
+
+    #-------------------------------------------------------------------------
+    # Create Deaths New Plot
+    #-------------------------------------------------------------------------
+
+    with col2:
+        #st.markdown(f'##### New Deaths')
+        
+        fig2 = plt.figure(2, figsize=(8, 5))
+
+        plt.title('New Deaths - Smoothed')
+        plt.xlabel="Date"
+        plt.ylabel="Number"
+
+        #plt.xticks(rotation=45)
+        ax = plt.gca()
+        ax.xaxis.set_major_locator(ticker.MultipleLocator(100))
+
+        plt.plot(dfProv['Date'], dfProv['DeathsNewMean'], label='New Deaths - Smoothed')
+        plt.grid(b=True, which='major')
+        print('section1, deaths')
+        st.pyplot(fig2)
+        plt.close()
+        #if prov == 'British Columbia':
+        #stBCCases(dfProv)
+
 
 #
 #  Display Cases by Health Authority
