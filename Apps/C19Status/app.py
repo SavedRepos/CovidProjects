@@ -13,8 +13,9 @@ import matplotlib.ticker as ticker
 import numpy as np
 import pandas as pd
 import streamlit as st
-import awesome_streamlit as ast
 
+import awesome_streamlit as ast
+import constants as cn
 import src.pages.about
 import src.pages.bccases
 import src.pages.countries
@@ -22,31 +23,8 @@ import src.pages.provinces
 import src.pages.testing
 import src.pages.vaccinations
 
-# #######################################################################################
-# Global Constants
-# #######################################################################################
-
-# "Date", "Region", "New_Tests", "Total_Tests", "Positivity", "Turn_Around"
-BC_TESTS_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv'
-# "Reported_Date","HA","Sex","Age_Group","Classification_Reported"
-BC_CASES_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv'
-# "Date","Province","HA","HSDA","Cases_Reported","Cases_Reported_Smoothed"
-BC_REGIONAL_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv'
-
-# combined_key,file_name,country,province
-# Index.csv fields
-
-# Province_State, Country_Region, Lat, Long, Date, Confirmed, Deaths, Combined_Key, Population,
-# ConfirmedNew, DeathsNew, ConfirmedNewMean, DeathsNewMean
-# Country.csv fields
-
-BASE_URL = 'https://raw.githubusercontent.com/jpaulhart/CovidProjects/main/Data/CSV_Files/'
-
-# #######################################################################################
-# Global Variables
-# #######################################################################################
-
 ast.core.services.other.set_logging_format()
+
 
 PAGES = {
     "B.C. Cases": src.pages.bccases,
@@ -54,22 +32,23 @@ PAGES = {
     "B.C. Vaccinations": src.pages.vaccinations,
     "Countries": src.pages.countries,
     "Provinces": src.pages.provinces,
-    "About": src.pages.about
+    "About": src.pages.about,
 }
 
-last_date = ""
-first_date = ""
+# #######################################################################################
+# Global Variables
+# #######################################################################################
 
-canada_url = f'{BASE_URL}Canada.csv'
+canada_url = f'{cn.CASES_BASE_URL}Canada.csv'
 df = pd.read_csv(canada_url)
 
 dfLast = df.tail(n=1)
-last_date = dfLast['Date'].values[0]
+cn.LAST_DATE = dfLast['Date'].values[0]
 
 dfFirst = df.head(n=1)
-first_date = dfFirst['Date'].values[0]
+cn.FIRST_DATE = dfFirst['Date'].values[0]
 
-date_range = f'Data date range: {first_date} to {last_date}'
+date_range = f'Data range: {cn.FIRST_DATE} to {cn.LAST_DATE}'
 
 # ############################################################################
 # Entry Point

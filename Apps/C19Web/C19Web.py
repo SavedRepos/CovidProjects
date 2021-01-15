@@ -256,7 +256,7 @@ def stSection1():
 # Provincial Stats Graph for specified time span
 #-----------------------------------------------------------------------------
 
-def stProvGraphs(dfProv):-=]
+def stProvGraphs(dfProv):
 
     #-------------------------------------------------------------------------
     # Create Confirmed New Plot

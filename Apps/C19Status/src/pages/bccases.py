@@ -1,25 +1,104 @@
 #!/usr/bin/env python3
 #
-# bc.py
+# bccases.py
 #
-# bc.py is a web application written in Python and using
+# bccases.py is part of a web application written in Python and using
 # Streamlit as the presentation method.
 #
 
-"""BC page shows BC Covid stats"""
+"""bccases page shows BC Covid Cases"""
 import datetime
 from datetime import timedelta
+import numpy as np
 import pandas as pd
 import streamlit as st
 import awesome_streamlit as ast
 
-import app 
+import constants as cn
 
 # pylint: disable=line-too-long
 def write():
     """Used to write the page in the app.py file"""
-    st.title("British Columbia Covid Stats")
+    st.title("BC Covid Cases")
+
+    prov = 'British Columbia'
+    
+    file_name = f'{prov}.csv'.replace(' ', '%20')
+    dfProv = pd.read_csv(f'{cn.CASES_BASE_URL}{file_name}')
+    
+    dfTests = pd.read_csv(cn.BC_TESTS_URL)
+    dfTable = dfTests.copy() 
+    dfTable['New_Positives'] = dfTable['New_Tests'] * (dfTable['Positivity'] / 100)
+
+    dfTable = dfTable.groupby('Date').agg({'New_Tests': 'sum', 'New_Positives': 'sum', 'Positivity': 'mean', 'Turn_Around': 'mean'})
+    dfTable = dfTable.sort_values('Date', ascending=False)
+    dfTable = pd.merge(dfProv, dfTable, on=['Date'], how='outer')
+    dfTable = dfTable.replace(np.nan,0)
+
+    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
+    casesByDate(dfTable)
+    st.markdown('<hr style="border-top: 8px solid #bbb; border-radius: 5px;" />', unsafe_allow_html=True)
+    graphsByGraphs(dfProv)
+    st.markdown('<hr style="border-top: 8px solid #bbb; border-radius: 5px;" />', unsafe_allow_html=True)
     casesByHA()
+
+#
+#  Display Cases by date
+#
+def casesByDate(dfProv):
+    st.markdown('#### BC New Cases and Deaths by Date')
+    
+    #st.markdown(f'##### 10 Days')
+
+    # Table of details for last week 
+    cases_data = '<div style="font-size: small">\n'
+    cases_data += '<table border=1>\n'
+    cases_data += '<tr><th> </th><th colspan=2 style="text-align:center">Cases</th><th colspan=2 style="text-align:center">Deaths</th><th colspan=4 style="text-align:center">Testing</th></tr>\n'
+    cases_data += '<tr><th>Date</th><th>Total</th><th>New</th><th>Total</th><th>New</th><th>New</th><th>Positives</th><th>% Pos.</th><th>Hours</th></tr>\n'
+    #cases_data += '| :----- | ----------: | --------: | -----------: | ---------: |\n'
+    row_count = 0
+    dfSorted = dfProv.sort_values(['Date'], ascending=False)
+    for index, row in dfSorted.iterrows():
+        date = row['Date'] 
+        confirmed = row['Confirmed']
+        confirmed = "{:,}".format(confirmed)
+        confirmedNew = row['ConfirmedNew']
+        confirmedNew = "{:,}".format(confirmedNew)
+        deaths = row['Deaths']
+        deaths = "{:,}".format(deaths)
+        deathsNew = row['DeathsNew']
+        deathsNew = "{:,}".format(deathsNew)
+        #New_Tests  New_Positives  Positivity  Turn_Around
+        newTests = row['New_Tests']
+        newTests = "{:,.0f}".format(newTests)
+        newPositives = row['New_Positives']
+        newPositives = "{:,.0f}".format(newPositives)
+        positivity = row['Positivity']
+        positivity = "{:.1f}".format(positivity)
+        turnAround = row['Turn_Around']
+        turnAround = "{:.1f}".format(turnAround)
+        cases_data += f'<tr>'
+        cases_data += f'<td nowrap>{date}</td><td style="text-align:right">{confirmed}</td>'
+        cases_data += f'<td style="text-align:right">{confirmedNew}</td>'
+        cases_data += f'<td style="text-align:right">{deaths}</td>'
+        cases_data += f'<td style="text-align:right">{deathsNew}</td>'
+        cases_data += f'<td style="text-align:right">{newTests}</td>'
+        cases_data += f'<td style="text-align:right">{newPositives}</td>'
+        cases_data += f'<td style="text-align:right">{positivity}%</td>'
+        cases_data += f'<td style="text-align:right">{turnAround}</td>'
+        cases_data += f'</tr>' + '\n'
+        row_count += 1
+        if row_count >= 10:
+            cases_data += '</table>\n'
+            cases_data += '</div>\n'
+            break
+    st.markdown(cases_data, unsafe_allow_html=True)
+
+#
+#  Display Cases on a graph
+#
+def graphsByGraphs():    
+    st.markdown('#### BC New Cases and Deaths by Date')
 
 #
 #  Display Cases by Health Authority
@@ -27,7 +106,7 @@ def write():
 def casesByHA():
 
     # Create dataframe with all records
-    df = pd.read_csv(app.BC_REGIONAL_URL)
+    df = pd.read_csv(cn.BC_REGIONAL_URL)
     df = df.drop(columns=['Cases_Reported_Smoothed'])
     df = df.sort_values(by=['Date', 'HA', 'HSDA'], ascending=[False, True, True])
 
@@ -84,6 +163,6 @@ def casesByHA():
     table_rows += '</table>\n'
     table_rows += '</div>\n'
     
-    st.markdown('#### BCCDC Cases by Region')
+    st.markdown('#### BCCDC Cases by Health Authority')
     st.markdown('#### ')
     st.markdown(table_rows, unsafe_allow_html=True)

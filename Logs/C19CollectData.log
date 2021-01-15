@@ -1463,3 +1463,17 @@ ModuleNotFoundError: No module named 'C19CollectDataWriteCsv'
 Thu Jan 14 13:20:44 PST 2021 Creating csv data complete
 
 Add files
+
+Thu Jan 14 13:20:44 PST 2021 Commit files
+[main 5bc1360] Daily update Thu Jan 14 13:20:44 PST 2021
+ 7 files changed, 41 insertions(+), 6 deletions(-)
+ rewrite Apps/C19Status/src/pages/__pycache__/bc.cpython-38.pyc (63%)
+ create mode 100644 Apps/C19Status/src/pages/__pycache__/bccases.cpython-38.pyc
+ rename Apps/C19Status/src/pages/{bc.py => bccases.py} (94%)
+
+Thu Jan 14 13:20:44 PST 2021 Push files to Github
+To https://github.com/jpaulhart/CovidProjects.git
+   b30b6d7..5bc1360  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Thu Jan 14 13:20:48 PST 2021 End C19 Data Collection complete -------------------------------------------

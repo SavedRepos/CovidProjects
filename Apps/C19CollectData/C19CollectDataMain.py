@@ -17,7 +17,7 @@ import pandas as pd
 import C19CollectDataGlobalTimeSeries as gts
 import C19CollectDataGlobalRollup as gpr
 import C19CollectDataUSStates as uss
-import C19CollectDataWriteCsv as wcs
+import C19CollectDataWriteIndexCsv as wcs
 
 # ----------------------------------------------------------------------------
 # Constants
