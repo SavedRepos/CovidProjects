@@ -24,10 +24,9 @@ import src.pages.vaccinations
 
 ast.core.services.other.set_logging_format()
 
-
 PAGES = {
     "B.C. Cases": src.pages.bccases,
-    "B.C. Vaccinations": src.pages.vaccinations,
+    "Vaccinations": src.pages.vaccinations,
     "Provinces": src.pages.provinces,
     "Countries": src.pages.countries,
     "About": src.pages.about,

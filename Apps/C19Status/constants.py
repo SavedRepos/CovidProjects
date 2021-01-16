@@ -26,6 +26,12 @@ BC_CASES_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Das
 # "Date","Province","HA","HSDA","Cases_Reported","Cases_Reported_Smoothed"
 BC_REGIONAL_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv'
 
+# Canada Vaccination stats
+# "date_vaccine_administered","province","cumulative_avaccine"
+CANADA_VACCINATION_ADMINSTERED = 'https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/vaccine_administration_cumulative.csv'
+# "date_vaccine_distributed","province","cumulative_dvaccine"
+CANADA_VACCINATION_DISTRIBUTED = 'https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/vaccine_distribution_cumulative.csv'
+
 # combined_key,file_name,country,province
 # Index.csv fields
 
