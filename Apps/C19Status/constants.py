@@ -29,6 +29,19 @@ BC_REGIONAL_URL = 'http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_
 # combined_key,file_name,country,province
 # Index.csv fields
 
+# Provincial Population
+PROV_POP = {
+    'BC' : 5.071,
+    'AL' : 4.371,
+    'SA' : 1.174,
+    'MB' : 1.369,
+    'ON' : 14.57,
+    'PQ' : 8.485,
+    'NL' : 0.552,
+    'NB' : 0.777,
+    'NS' : 0.971,
+    'PE' : 0.156,
+}
 
 FIRST_DATE = ""
 LAST_DATE = ""

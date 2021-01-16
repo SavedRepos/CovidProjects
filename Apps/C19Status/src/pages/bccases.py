@@ -126,6 +126,9 @@ def graphsByGraphs(dfProv):
         plt.grid(b=True, which='major')
         print('section1, confirmed')
         print(dfProv.info())
+
+        # fig = plotData( df, variableName, title, xTitle, yTitle, )
+        
         st.pyplot(fig1)
         print('section1, confirmed done')
         plt.close()
