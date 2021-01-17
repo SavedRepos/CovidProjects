@@ -24,19 +24,51 @@ def write():
     st.title("Vaccinations by Day")
     st.markdown('#### ')
 
-# Canada Vaccination stats
-# "date_vaccine_administered","province","cumulative_avaccine"
-# CANADA_VACCINATION_ADMINSTERED = 'https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/vaccine_administration_cumulative.csv'
-# "date_vaccine_distributed","province","cumulative_dvaccine"
-# CANADA_VACCINATION_DISTRIBUTED = 'https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/vaccine_distribution_cumulative.csv'
+    # ------------------------------------------------------------------------
+
+    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
 
     dfAdmin = pd.read_csv(cn.CANADA_VACCINATION_ADMINSTERED)
+    dfAdmin['date_vaccine_administered']= pd.to_datetime(dfAdmin['date_vaccine_administered'], format='%d-%m-%Y')
     dfAdmin = dfAdmin.sort_values(['date_vaccine_administered'], ascending=[True])
     dfAdmin['cumulative_avaccine_mean'] = dfAdmin['cumulative_avaccine'].rolling(7).mean()
     print(dfAdmin)
 
+    fig1 = plt.figure(1, figsize=(8, 5))
+
+    plt.title('Vaccines Administered', fontsize='large')
+    plt.xlabel="Date"
+    plt.ylabel="Number"
+
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(10))
+
+    plt.bar(dfAdmin['date_vaccine_administered'], dfAdmin['cumulative_avaccine'], label='Vaccine Administered')
+    plt.grid(b=True, which='major')
+    
+    st.pyplot(fig1)
+    plt.close()
+
+    # ------------------------------------------------------------------------
+
+    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
+
     dfDistr = pd.read_csv(cn.CANADA_VACCINATION_DISTRIBUTED)
+    dfDistr['date_vaccine_distributed']= pd.to_datetime(dfDistr['date_vaccine_distributed'], format='%d-%m-%Y')
     dfDistr = dfDistr.sort_values(['date_vaccine_distributed'], ascending=[True])
     dfDistr['cumulative_dvaccine_mean'] = dfDistr['cumulative_dvaccine'].rolling(7).mean()
-    print(dfDistr)
 
+    fig1 = plt.figure(1, figsize=(8, 5))
+
+    plt.title('Vaccines Distributed', fontsize='large')
+    plt.xlabel="Date"
+    plt.ylabel="Number"
+
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(10))
+
+    plt.bar(dfDistr['date_vaccine_distributed'], dfDistr['cumulative_dvaccine'], label='Vaccine Distributed')
+    plt.grid(b=True, which='major')
+    
+    st.pyplot(fig1)
+    plt.close()
