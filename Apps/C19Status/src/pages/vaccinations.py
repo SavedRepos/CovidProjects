@@ -24,50 +24,41 @@ def write():
     st.title("Vaccinations by Day")
     st.markdown('#### ')
 
-    # ------------------------------------------------------------------------
-
-    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
-
     dfAdmin = pd.read_csv(cn.CANADA_VACCINATION_ADMINSTERED)
     dfAdmin['date_vaccine_administered']= pd.to_datetime(dfAdmin['date_vaccine_administered'], format='%d-%m-%Y')
     dfAdmin = dfAdmin.sort_values(['date_vaccine_administered'], ascending=[True])
     dfAdmin['cumulative_avaccine_mean'] = dfAdmin['cumulative_avaccine'].rolling(7).mean()
-    print(dfAdmin)
-
-    fig1 = plt.figure(1, figsize=(8, 5))
-
-    plt.title('Vaccines Administered', fontsize='large')
-    plt.xlabel="Date"
-    plt.ylabel="Number"
-
-    ax = plt.gca()
-    ax.xaxis.set_major_locator(ticker.MultipleLocator(10))
-
-    plt.bar(dfAdmin['date_vaccine_administered'], dfAdmin['cumulative_avaccine'], label='Vaccine Administered')
-    plt.grid(b=True, which='major')
-    
-    st.pyplot(fig1)
-    plt.close()
-
-    # ------------------------------------------------------------------------
-
-    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
 
     dfDistr = pd.read_csv(cn.CANADA_VACCINATION_DISTRIBUTED)
     dfDistr['date_vaccine_distributed']= pd.to_datetime(dfDistr['date_vaccine_distributed'], format='%d-%m-%Y')
     dfDistr = dfDistr.sort_values(['date_vaccine_distributed'], ascending=[True])
     dfDistr['cumulative_dvaccine_mean'] = dfDistr['cumulative_dvaccine'].rolling(7).mean()
 
+    writeProvinceGraph(dfAdmin, dfDistr, 'BC')
+    writeProvinceGraph(dfAdmin, dfDistr, 'Alberta')
+    writeProvinceGraph(dfAdmin, dfDistr, 'Ontario')
+    writeProvinceGraph(dfAdmin, dfDistr, 'Quebec')
+
+def writeProvinceGraph(dfAdmin, dfDistr, province):
+    dfAdmin = dfAdmin[dfAdmin['province'] == f'{province}']
+    dfDistr = dfDistr[dfDistr['province'] == f'{province}']
+
+    # ------------------------------------------------------------------------
+
+    st.markdown('<hr style="border-top: 8px solid #ccc; border-radius: 5px;" />', unsafe_allow_html=True)
+
     fig1 = plt.figure(1, figsize=(8, 5))
 
-    plt.title('Vaccines Distributed', fontsize='large')
+    plt.title(f'{province} Vaccines', fontsize='large')
     plt.xlabel="Date"
     plt.ylabel="Number"
 
     ax = plt.gca()
     ax.xaxis.set_major_locator(ticker.MultipleLocator(10))
 
-    plt.bar(dfDistr['date_vaccine_distributed'], dfDistr['cumulative_dvaccine'], label='Vaccine Distributed')
+    plt.bar(dfDistr['date_vaccine_distributed'], dfDistr['cumulative_dvaccine'], label=f'{province} Vaccines Distributed')
+    plt.bar(dfAdmin['date_vaccine_administered'], dfAdmin['cumulative_avaccine'], label=f'{province} Vaccines Administered')
+    plt.legend(['Distributed','Administered'])
     plt.grid(b=True, which='major')
     
     st.pyplot(fig1)
