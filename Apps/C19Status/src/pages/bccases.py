@@ -124,13 +124,13 @@ def graphsByGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['ConfirmedNewMean'], label='New Cases - Smoothed')
         plt.grid(b=True, which='major')
-        print('section1, confirmed')
-        print(dfProv.info())
+        #print('section1, confirmed')
+        #print(dfProv.info())
 
         # fig = plotData( df, variableName, title, xTitle, yTitle, )
         
         st.pyplot(fig1)
-        print('section1, confirmed done')
+        #print('section1, confirmed done')
         plt.close()
 
     #-------------------------------------------------------------------------
@@ -152,7 +152,7 @@ def graphsByGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['DeathsNewMean'], label='New Deaths - Smoothed')
         plt.grid(b=True, which='major')
-        print('section1, deaths')
+        #print('section1, deaths')
         st.pyplot(fig2)
         plt.close()
         #if prov == 'British Columbia':
@@ -185,8 +185,8 @@ def casesByHA():
     table_rows =  '<div style="font-size: 9pt">\n'
 
     table_rows += '<table border=1 cellspacing=0 cellpadding=0>\n'
-    table_rows += '<tr><th>Health Authority</th><th>Heath Services Delivery Area</th><th colspan=2 style="text-align:center">Cases</th></tr>\n'
-    table_rows += '<tr><th></th><th></th><th>Last 7 Days</th><th>Cases Total</th></tr>\n'
+    table_rows += '<tr><th>Health Authority</th><th>Heath Services Delivery Area</th><th colspan=4 style="text-align:center">Cases</th></tr>\n'
+    table_rows += '<tr><th></th><th></th><th colspan=2>Last 7 Days</th><th colspan=2>Cases Total</th></tr>\n'
 
     unique_has = df.HA.unique()
     #print(f'uniques_has: {unique_has}')
@@ -198,24 +198,39 @@ def casesByHA():
         hsda = ''
         casex = ''
         casey = ''
+        casex_total = 0
+        casey_total = 0
+        casex_percent = 0
+        casey_persent = 0
+
         previous_ha = ''
         table_row = ''
+        casex_total = ''
+        casey_total = ''
+        casex_percent = ''
+        casey_percent = ''
         for index, row in dfhagr.iterrows():
             if row['HA'] != previous_ha:
                 if previous_ha != '':
                     table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casey}</td></tr>\n'
                     table_rows += table_row
-                    print('New' + table_row)
+                    #print('New' + table_row)
                 ha = f"<b>{row['HA']}</b>"
                 hsda = f"<b>{row['HSDA']}</b>"
                 casex = f"<b>{'{:,}'.format(row['Cases_Reported_x'])}</b>"
                 casey = f"<b>{'{:,}'.format(row['Cases_Reported_y'])}</b>"
+                casex_total = row['Cases_Reported_x']
+                casey_total = row['Cases_Reported_y']
+                casex_percent = '<b>100.00%</b>'
+                casey_percent = '<b>100.00%</b>'
                 previous_ha = row['HA']
             else:
                 hsda += f"<br />{row['HSDA']}"
                 casex += f"<br />{'{:,}'.format(row['Cases_Reported_x'])}"
                 casey += f"<br />{'{:,}'.format(row['Cases_Reported_y'])}"
-        table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casey}</td></tr>\n'
+                casex_percent += f"<br />" + '{:.2f}'.format((row['Cases_Reported_x'] /  casex_total) * 100) + '%'
+                casey_percent += f"<br />" + '{:.2f}'.format((row['Cases_Reported_y'] /  casey_total) * 100) + '%'
+        table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casex_percent}</td><td style="text-align:right">{casey}</td><td style="text-align:right">{casey_percent}</td></tr>\n'
         table_rows += table_row
         #print('Add', table_row)
 
