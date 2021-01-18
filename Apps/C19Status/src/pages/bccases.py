@@ -8,7 +8,7 @@
 
 """bccases page shows BC Covid Cases"""
 import datetime
-from datetime import timedelta
+from   datetime import timedelta
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
@@ -124,13 +124,8 @@ def graphsByGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['ConfirmedNewMean'], label='New Cases - Smoothed')
         plt.grid(b=True, which='major')
-        #print('section1, confirmed')
-        #print(dfProv.info())
-
-        # fig = plotData( df, variableName, title, xTitle, yTitle, )
         
         st.pyplot(fig1)
-        #print('section1, confirmed done')
         plt.close()
 
     #-------------------------------------------------------------------------
@@ -138,7 +133,6 @@ def graphsByGraphs(dfProv):
     #-------------------------------------------------------------------------
 
     with col2:
-        #st.markdown(f'##### New Deaths')
         
         fig2 = plt.figure(2, figsize=(8, 5))
 
@@ -152,12 +146,8 @@ def graphsByGraphs(dfProv):
 
         plt.plot(dfProv['Date'], dfProv['DeathsNewMean'], label='New Deaths - Smoothed')
         plt.grid(b=True, which='major')
-        #print('section1, deaths')
         st.pyplot(fig2)
         plt.close()
-        #if prov == 'British Columbia':
-        #stBCCases(dfProv)
-
 
 #
 #  Display Cases by Health Authority
@@ -189,9 +179,7 @@ def casesByHA():
     table_rows += '<tr><th></th><th></th><th colspan=2>Last 7 Days</th><th colspan=2>Cases Total</th></tr>\n'
 
     unique_has = df.HA.unique()
-    #print(f'uniques_has: {unique_has}')
     for unique_ha in unique_has:
-        #print(f'unique_ha: {unique_ha}')
         dfha = df[df['HA'] == unique_ha]
         dfhagr =  pd.DataFrame(dfha.groupby(['HA', 'HSDA'], as_index=False).sum())
         ha = ''
@@ -214,7 +202,6 @@ def casesByHA():
                 if previous_ha != '':
                     table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casey}</td></tr>\n'
                     table_rows += table_row
-                    #print('New' + table_row)
                 ha = f"<b>{row['HA']}</b>"
                 hsda = f"<b>{row['HSDA']}</b>"
                 casex = f"<b>{'{:,}'.format(row['Cases_Reported_x'])}</b>"
@@ -232,7 +219,6 @@ def casesByHA():
                 casey_percent += f"<br />" + '{:.2f}'.format((row['Cases_Reported_y'] /  casey_total) * 100) + '%'
         table_row = f'<tr valign="top"><td>{ha}</td><td>{hsda}</td><td style="text-align:right">{casex}</td><td style="text-align:right">{casex_percent}</td><td style="text-align:right">{casey}</td><td style="text-align:right">{casey_percent}</td></tr>\n'
         table_rows += table_row
-        #print('Add', table_row)
 
     table_rows += '</table>\n'
     table_rows += '</div>\n'

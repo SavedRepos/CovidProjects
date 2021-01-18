@@ -8,7 +8,7 @@
 
 """bccases page shows Canadian Provinces Cases"""
 import datetime
-from datetime import timedelta
+from   datetime import timedelta
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
@@ -76,7 +76,6 @@ def write():
     # Add a legend
     plt.legend(['Alberta', 'British Columbia', 'Ontario', 'Quebec'])
     plt.grid(b=True, which='major')
-    print('section2, confirmed')
     st.pyplot(fig1)
     plt.close()
 
@@ -107,6 +106,5 @@ def write():
     # Add a legend
     plt.legend(['Alberta', 'British Columbia', 'Ontario', 'Quebec'])
     plt.grid(b=True, which='major')
-    print('section2, deaths')
     st.pyplot(fig1)
     plt.close()
